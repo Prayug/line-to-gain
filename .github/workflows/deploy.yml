@@ -1,0 +1,60 @@
+name: Refresh stats and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 11 * * *' # daily, after nflverse's overnight update
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rebuild stats from nflverse
+        run: python scripts/build_stats.py "$RUNNER_TEMP/nflverse" data/legends.json data/stats.json
+
+      # Runs before anything is published: if nflverse renames a column the
+      # stats go to zero, these checks fail, and the last good build stays up.
+      - name: Check the game rules against the new data
+        run: node tests/rules.test.js
+
+      - name: Commit refreshed stats
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/stats.json
+          git diff --cached --quiet || { git commit -m "Refresh stats"; git push; }
+
+      - name: Collect the site
+        run: |
+          mkdir -p _site/data
+          cp index.html style.css app.js favicon.svg _site/
+          cp data/stats.json _site/data/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

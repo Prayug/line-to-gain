@@ -1,0 +1,5788 @@
+[
+{
+"from": 2011,
+"name": "A. J. Green",
+"pos": "WR",
+"stats": {
+"rec": 727,
+"rec_yds": 10514
+},
+"to": 2022
+},
+{
+"from": 2014,
+"name": "Aaron Donald",
+"pos": "DT",
+"stats": {
+"sacks": 111
+},
+"to": 2026
+},
+{
+"from": 2005,
+"name": "Aaron Rodgers",
+"pos": "QB",
+"stats": {
+"pass_td": 540,
+"pass_yds": 68145
+},
+"to": 2026
+},
+{
+"from": 1996,
+"name": "Abdul-Karim al-Jabbar",
+"pos": "RB",
+"stats": {
+"rush_td": 33,
+"rush_yds": 3411
+},
+"to": 2000
+},
+{
+"from": 1937,
+"name": "Ace Parker",
+"pos": "QB",
+"stats": {
+"pass_td": 30,
+"pass_yds": 4698,
+"rec_yds": 229,
+"rush_yds": 1292
+},
+"to": 1946
+},
+{
+"from": 2007,
+"name": "Adrian Peterson",
+"pos": "RB",
+"stats": {
+"rush_td": 120,
+"rush_yds": 14918
+},
+"to": 2021
+},
+{
+"from": 1998,
+"name": "Adrian Ross",
+"pos": "LB",
+"stats": {
+"ints": 1,
+"sacks": 3
+},
+"to": 2003
+},
+{
+"from": 1991,
+"name": "Aeneas Williams",
+"pos": "DB",
+"stats": {
+"ints": 55,
+"sacks": 3
+},
+"to": 2004
+},
+{
+"from": 1978,
+"name": "Al Baker",
+"pos": "DE",
+"stats": {
+"sacks": 131
+},
+"to": 1990
+},
+{
+"from": 1997,
+"name": "Al Wallace",
+"pos": "DE",
+"stats": {
+"ints": 4,
+"sacks": 23
+},
+"to": 2007
+},
+{
+"from": 1967,
+"name": "Alan Page",
+"pos": "DT",
+"stats": {
+"ints": 2,
+"sacks": 148.5
+},
+"to": 1981
+},
+{
+"from": 1958,
+"name": "Alex Karras",
+"pos": "DT",
+"stats": {
+"ints": 4,
+"sacks": 100
+},
+"to": 1970
+},
+{
+"from": 2005,
+"name": "Alex Smith",
+"pos": "QB",
+"stats": {
+"pass_yds": 35650
+},
+"to": 2019
+},
+{
+"from": 1938,
+"name": "Alex Wojciechowicz",
+"pos": "LB",
+"stats": {
+"ints": 19
+},
+"to": 1950
+},
+{
+"from": 1992,
+"name": "Alfred Pupunu",
+"pos": "TE",
+"stats": {
+"rec": 102,
+"rec_td": 3,
+"rec_yds": 1000
+},
+"to": 2000
+},
+{
+"from": 2015,
+"name": "Amari Cooper",
+"pos": "WR",
+"stats": {
+"rec": 711,
+"rec_yds": 10033
+},
+"to": 2024
+},
+{
+"from": 2003,
+"name": "Andre Johnson",
+"pos": "WR",
+"stats": {
+"rec": 1062,
+"rec_td": 70,
+"rec_yds": 14185
+},
+"to": 2016
+},
+{
+"from": 1985,
+"name": "Andre Reed",
+"pos": "WR",
+"stats": {
+"rec": 951,
+"rec_td": 87,
+"rec_yds": 13198
+},
+"to": 2000
+},
+{
+"from": 1989,
+"name": "Andre Rison",
+"pos": "WR",
+"stats": {
+"rec": 743,
+"rec_td": 84,
+"rec_yds": 10205
+},
+"to": 2000
+},
+{
+"from": 1995,
+"name": "Andre Royal",
+"pos": "LB",
+"stats": {
+"sacks": 6
+},
+"to": 1999
+},
+{
+"from": 1982,
+"name": "Andre Tippett",
+"pos": "OLB",
+"stats": {
+"ints": 1,
+"sacks": 100
+},
+"to": 1993
+},
+{
+"from": 2011,
+"name": "Andy Dalton",
+"pos": "QB",
+"stats": {
+"pass_td": 254,
+"pass_yds": 39793
+},
+"to": 2026
+},
+{
+"from": 1951,
+"name": "Andy Robustelli",
+"pos": "DE",
+"stats": {
+"ints": 2
+},
+"to": 1964
+},
+{
+"from": 2003,
+"name": "Anquan Boldin",
+"pos": "WR",
+"stats": {
+"rec": 1076,
+"rec_td": 82,
+"rec_yds": 13779
+},
+"to": 2016
+},
+{
+"from": 1992,
+"name": "Anthony Lynn",
+"pos": "RB",
+"stats": {
+"rec": 3,
+"rec_yds": 35,
+"rush_yds": 177
+},
+"to": 1999
+},
+{
+"from": 2010,
+"name": "Antonio Brown",
+"pos": "WR",
+"stats": {
+"rec": 928,
+"rec_td": 83,
+"rec_yds": 12291
+},
+"to": 2021
+},
+{
+"from": 2003,
+"name": "Antonio Gates",
+"pos": "TE",
+"stats": {
+"rec": 955,
+"rec_td": 116,
+"rec_yds": 11841
+},
+"to": 2018
+},
+{
+"from": 1930,
+"name": "Arnie Herber",
+"pos": "QB",
+"stats": {
+"pass_td": 81,
+"pass_yds": 8041,
+"rush_td": 3,
+"rush_yds": 116
+},
+"to": 1945
+},
+{
+"from": 1980,
+"name": "Art Monk",
+"pos": "WR",
+"stats": {
+"rec": 940,
+"rec_td": 68,
+"rec_yds": 12721
+},
+"to": 1995
+},
+{
+"from": 1959,
+"name": "Art Powell",
+"pos": "WR",
+"stats": {
+"rec_td": 81
+},
+"to": 1968
+},
+{
+"from": 2003,
+"name": "Asante Samuel",
+"pos": "CB",
+"stats": {
+"ints": 51
+},
+"to": 2013
+},
+{
+"from": 1989,
+"name": "Barry Sanders",
+"pos": "RB",
+"stats": {
+"rec": 352,
+"rec_td": 10,
+"rec_yds": 2921,
+"rush_td": 99,
+"rush_yds": 15269
+},
+"to": 1998
+},
+{
+"from": 1956,
+"name": "Bart Starr",
+"pos": "QB",
+"stats": {
+"pass_td": 152,
+"pass_yds": 24718
+},
+"to": 1971
+},
+{
+"from": 2004,
+"name": "Ben Roethlisberger",
+"pos": "QB",
+"stats": {
+"pass_td": 418,
+"pass_yds": 64088
+},
+"to": 2021
+},
+{
+"from": 1927,
+"name": "Benny Friedman",
+"pos": "QB",
+"stats": {
+"pass_td": 66,
+"pass_yds": 7673,
+"rush_td": 18,
+"rush_yds": 2322
+},
+"to": 1934
+},
+{
+"from": 1994,
+"name": "Bernard Whittington",
+"pos": "DE",
+"stats": {
+"sacks": 12
+},
+"to": 2002
+},
+{
+"from": 1994,
+"name": "Bernardo Harris",
+"pos": "LB",
+"stats": {
+"ints": 5,
+"sacks": 9.5
+},
+"to": 2003
+},
+{
+"from": 1992,
+"name": "Bernie Parmalee",
+"pos": "RB",
+"stats": {
+"rec": 168,
+"rec_yds": 1485,
+"rush_yds": 2179
+},
+"to": 2000
+},
+{
+"from": 1942,
+"name": "Bill Dudley",
+"pos": "RB",
+"stats": {
+"ints": 23,
+"rec": 123,
+"rec_yds": 1383,
+"rush_yds": 3057
+},
+"to": 1953
+},
+{
+"from": 1952,
+"name": "Bill George",
+"pos": "DT",
+"stats": {
+"ints": 18,
+"sacks": 28.5
+},
+"to": 1966
+},
+{
+"from": 1932,
+"name": "Bill Hewitt",
+"pos": "WR",
+"stats": {
+"rec": 103,
+"rec_td": 24,
+"rec_yds": 1638
+},
+"to": 1943
+},
+{
+"from": 1946,
+"name": "Bill Willis",
+"pos": "OL",
+"stats": {
+"ints": 1
+},
+"to": 1953
+},
+{
+"from": 1995,
+"name": "Billy Davis",
+"pos": "WR",
+"stats": {
+"rec": 51,
+"rec_yds": 907
+},
+"to": 2002
+},
+{
+"from": 1997,
+"name": "Billy Lyon",
+"pos": "DT",
+"stats": {
+"ints": 1,
+"sacks": 8
+},
+"to": 2003
+},
+{
+"from": 1997,
+"name": "Blaine McElmurry",
+"pos": "DB",
+"stats": {
+"ints": 1
+},
+"to": 2002
+},
+{
+"from": 1967,
+"name": "Bob Griese",
+"pos": "QB",
+"stats": {
+"pass_td": 192,
+"pass_yds": 25092
+},
+"to": 1980
+},
+{
+"from": 1965,
+"name": "Bob Hayes",
+"pos": "WR",
+"stats": {
+"rec": 371,
+"rec_td": 71,
+"rec_yds": 7414
+},
+"to": 1975
+},
+{
+"from": 1961,
+"name": "Bob Lilly",
+"pos": "DT",
+"stats": {
+"ints": 1
+},
+"to": 1974
+},
+{
+"from": 1945,
+"name": "Bob Waterfield",
+"pos": "QB",
+"stats": {
+"pass_td": 97,
+"pass_yds": 11849
+},
+"to": 1952
+},
+{
+"from": 1963,
+"name": "Bobby Bell",
+"pos": "DE",
+"stats": {
+"ints": 26,
+"sacks": 40
+},
+"to": 1974
+},
+{
+"from": 1960,
+"name": "Bobby Boyd",
+"pos": "CB",
+"stats": {
+"ints": 57
+},
+"to": 1968
+},
+{
+"from": 1968,
+"name": "Bobby Bryant",
+"pos": "DB",
+"stats": {
+"ints": 51
+},
+"to": 1980
+},
+{
+"from": 1952,
+"name": "Bobby Dillon",
+"pos": "DB",
+"stats": {
+"ints": 52
+},
+"to": 1959
+},
+{
+"from": 1994,
+"name": "Bobby Hamilton",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 19
+},
+"to": 2007
+},
+{
+"from": 1948,
+"name": "Bobby Layne",
+"pos": "QB",
+"stats": {
+"pass_td": 196,
+"pass_yds": 26768,
+"rush_td": 25,
+"rush_yds": 2451
+},
+"to": 1962
+},
+{
+"from": 1958,
+"name": "Bobby Mitchell",
+"pos": "WR",
+"stats": {
+"rec": 521,
+"rec_yds": 7954,
+"rush_yds": 2753
+},
+"to": 1968
+},
+{
+"from": 1984,
+"name": "Boomer Esiason",
+"pos": "QB",
+"stats": {
+"pass_td": 247,
+"pass_yds": 37920
+},
+"to": 1997
+},
+{
+"from": 1995,
+"name": "Brandon Bennett",
+"pos": "RB",
+"stats": {
+"rush_yds": 1144
+},
+"to": 2004
+},
+{
+"from": 2006,
+"name": "Brandon Marshall",
+"pos": "WR",
+"stats": {
+"rec": 972,
+"rec_td": 83,
+"rec_yds": 12351
+},
+"to": 2018
+},
+{
+"from": 1994,
+"name": "Brent Alexander",
+"pos": "S",
+"stats": {
+"ints": 28,
+"sacks": 8
+},
+"to": 2005
+},
+{
+"from": 1991,
+"name": "Brett Favre",
+"pos": "QB",
+"stats": {
+"pass_td": 508,
+"pass_yds": 71838
+},
+"to": 2010
+},
+{
+"from": 1996,
+"name": "Brian Dawkins",
+"pos": "S",
+"stats": {
+"ints": 37,
+"sacks": 26
+},
+"to": 2011
+},
+{
+"from": 1993,
+"name": "Brian Kozlowski",
+"pos": "TE",
+"stats": {
+"rec": 85,
+"rec_td": 8,
+"rec_yds": 978
+},
+"to": 2007
+},
+{
+"from": 2000,
+"name": "Brian Urlacher",
+"pos": "LB",
+"stats": {
+"ints": 22,
+"sacks": 41.5
+},
+"to": 2012
+},
+{
+"from": 1996,
+"name": "Brian Walker",
+"pos": "S",
+"stats": {
+"ints": 15,
+"sacks": 4
+},
+"to": 2004
+},
+{
+"from": 1998,
+"name": "Brock Olivo",
+"pos": "RB",
+"stats": {
+"rec": 7,
+"rec_yds": 74,
+"rush_yds": 7
+},
+"to": 2004
+},
+{
+"from": 1930,
+"name": "Bronko Nagurski",
+"pos": "FB",
+"stats": {
+"rec": 11,
+"rec_yds": 134,
+"rush_td": 25,
+"rush_yds": 2778
+},
+"to": 1943
+},
+{
+"from": 1985,
+"name": "Bruce Smith",
+"pos": "DE",
+"stats": {
+"ints": 2,
+"sacks": 200
+},
+"to": 2003
+},
+{
+"from": 1994,
+"name": "Bryant Young",
+"pos": "DT",
+"stats": {
+"sacks": 89.5
+},
+"to": 2007
+},
+{
+"from": 1996,
+"name": "Bubba Miller",
+"pos": "OL",
+"stats": {
+"rec": 2,
+"rec_yds": 20
+},
+"to": 2002
+},
+{
+"from": 1963,
+"name": "Buck Buchanan",
+"pos": "DT",
+"stats": {
+"ints": 3
+},
+"to": 1975
+},
+{
+"from": 1951,
+"name": "Bud Grant",
+"pos": "DE",
+"stats": {
+"rec": 56,
+"rec_td": 7,
+"rec_yds": 997
+},
+"to": 1956
+},
+{
+"from": 1940,
+"name": "Bulldog Turner",
+"pos": "LB",
+"stats": {
+"ints": 17
+},
+"to": 1952
+},
+{
+"from": 2008,
+"name": "Calais Campbell",
+"pos": "DE",
+"stats": {
+"sacks": 118
+},
+"to": 2026
+},
+{
+"from": 1994,
+"name": "Calvin Jackson",
+"pos": "S",
+"stats": {
+"ints": 4,
+"sacks": 4
+},
+"to": 2001
+},
+{
+"from": 2007,
+"name": "Calvin Johnson",
+"pos": "WR",
+"stats": {
+"rec": 731,
+"rec_td": 83,
+"rec_yds": 11619
+},
+"to": 2015
+},
+{
+"from": 2011,
+"name": "Cam Newton",
+"pos": "QB",
+"stats": {
+"pass_yds": 32382,
+"rush_td": 75
+},
+"to": 2021
+},
+{
+"from": 1998,
+"name": "Cameron Cleeland",
+"pos": "TE",
+"stats": {
+"rec": 131,
+"rec_td": 13,
+"rec_yds": 1478
+},
+"to": 2005
+},
+{
+"from": 2011,
+"name": "Cameron Jordan",
+"pos": "DE",
+"stats": {
+"sacks": 132
+},
+"to": 2026
+},
+{
+"from": 2009,
+"name": "Cameron Wake",
+"pos": "DE",
+"stats": {
+"sacks": 100.5
+},
+"to": 2019
+},
+{
+"from": 1964,
+"name": "Carl Eller",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 133.5
+},
+"to": 1979
+},
+{
+"from": 2010,
+"name": "Carlos Dunlap",
+"pos": "DE",
+"stats": {
+"sacks": 100
+},
+"to": 2022
+},
+{
+"from": 2003,
+"name": "Carson Palmer",
+"pos": "QB",
+"stats": {
+"pass_td": 294,
+"pass_yds": 46247
+},
+"to": 2017
+},
+{
+"from": 1970,
+"name": "Cedrick Hardman",
+"pos": "DE",
+"stats": {
+"sacks": 122.5
+},
+"to": 1981
+},
+{
+"from": 2001,
+"name": "Chad Johnson",
+"pos": "WR",
+"stats": {
+"rec": 766,
+"rec_yds": 11059
+},
+"to": 2011
+},
+{
+"from": 1997,
+"name": "Chad Lewis",
+"pos": "TE",
+"stats": {
+"rec": 229,
+"rec_td": 23,
+"rec_yds": 2361
+},
+"to": 2005
+},
+{
+"from": 1999,
+"name": "Champ Bailey",
+"pos": "CB",
+"stats": {
+"ints": 52,
+"sacks": 3
+},
+"to": 2013
+},
+{
+"from": 2012,
+"name": "Chandler Jones",
+"pos": "DE",
+"stats": {
+"sacks": 112
+},
+"to": 2022
+},
+{
+"from": 1986,
+"name": "Charles Haley",
+"pos": "DE",
+"stats": {
+"ints": 2,
+"sacks": 100.5
+},
+"to": 1999
+},
+{
+"from": 1998,
+"name": "Charles Woodson",
+"pos": "DB",
+"stats": {
+"ints": 65,
+"sacks": 20
+},
+"to": 2015
+},
+{
+"from": 1964,
+"name": "Charley Taylor",
+"pos": "WR",
+"stats": {
+"rec": 649,
+"rec_td": 79,
+"rec_yds": 9110,
+"rush_td": 11,
+"rush_yds": 1488
+},
+"to": 1977
+},
+{
+"from": 1947,
+"name": "Charley Trippi",
+"pos": "QB",
+"stats": {
+"pass_td": 16,
+"pass_yds": 2547,
+"rush_yds": 3506
+},
+"to": 1955
+},
+{
+"from": 1994,
+"name": "Charlie Clemons",
+"pos": "LB",
+"stats": {
+"ints": 2,
+"sacks": 20
+},
+"to": 2003
+},
+{
+"from": 1969,
+"name": "Charlie Joiner",
+"pos": "WR",
+"stats": {
+"rec": 750,
+"rec_td": 65,
+"rec_yds": 12146
+},
+"to": 1986
+},
+{
+"from": 1968,
+"name": "Charlie Sanders",
+"pos": "TE",
+"stats": {
+"rec": 336,
+"rec_td": 31,
+"rec_yds": 4817
+},
+"to": 1977
+},
+{
+"from": 1985,
+"name": "Chris Doleman",
+"pos": "DE",
+"stats": {
+"ints": 8,
+"sacks": 150.5
+},
+"to": 1999
+},
+{
+"from": 1965,
+"name": "Chris Hanburger",
+"pos": "LB",
+"stats": {
+"ints": 19
+},
+"to": 1978
+},
+{
+"from": 1996,
+"name": "Chris Hetherington",
+"pos": "FB",
+"stats": {
+"rec": 50,
+"rec_td": 1,
+"rec_yds": 319,
+"rush_td": 2,
+"rush_yds": 91
+},
+"to": 2006
+},
+{
+"from": 1993,
+"name": "Chris Thomas",
+"pos": "WR",
+"stats": {
+"rec": 51,
+"rec_yds": 592
+},
+"to": 2001
+},
+{
+"from": 1949,
+"name": "Chuck Bednarik",
+"pos": "LB",
+"stats": {
+"ints": 20
+},
+"to": 1962
+},
+{
+"from": 1958,
+"name": "Chuck Howley",
+"pos": "LB",
+"stats": {
+"ints": 25
+},
+"to": 1973
+},
+{
+"from": 1953,
+"name": "Chuck Noll",
+"pos": "LB",
+"stats": {
+"ints": 8
+},
+"to": 1959
+},
+{
+"from": 1932,
+"name": "Clarke Hinkle",
+"pos": "LB",
+"stats": {
+"rec_td": 9,
+"rec_yds": 537,
+"rush_td": 35,
+"rush_yds": 3860
+},
+"to": 1941
+},
+{
+"from": 1968,
+"name": "Claude Humphrey",
+"pos": "DE",
+"stats": {
+"ints": 2,
+"sacks": 130
+},
+"to": 1981
+},
+{
+"from": 1932,
+"name": "Cliff Battles",
+"pos": "—",
+"stats": {
+"rec": 38,
+"rec_td": 4,
+"rec_yds": 546,
+"rush_td": 23,
+"rush_yds": 3511
+},
+"to": 1937
+},
+{
+"from": 1972,
+"name": "Cliff Branch",
+"pos": "WR",
+"stats": {
+"rec": 501,
+"rec_td": 67,
+"rec_yds": 8685
+},
+"to": 1988
+},
+{
+"from": 1970,
+"name": "Cliff Harris",
+"pos": "S",
+"stats": {
+"ints": 29
+},
+"to": 1979
+},
+{
+"from": 2002,
+"name": "Clinton Portis",
+"pos": "RB",
+"stats": {
+"rush_td": 75
+},
+"to": 2010
+},
+{
+"from": 1986,
+"name": "Clyde Simmons",
+"pos": "DE",
+"stats": {
+"sacks": 121.5
+},
+"to": 2000
+},
+{
+"from": 1997,
+"name": "Corey Dillon",
+"pos": "RB",
+"stats": {
+"rush_td": 82,
+"rush_yds": 11241
+},
+"to": 2006
+},
+{
+"from": 1996,
+"name": "Corey Sears",
+"pos": "DE",
+"stats": {
+"sacks": 2
+},
+"to": 2004
+},
+{
+"from": 1990,
+"name": "Cortez Kennedy",
+"pos": "DT",
+"stats": {
+"ints": 3,
+"sacks": 58
+},
+"to": 2000
+},
+{
+"from": 1968,
+"name": "Coy Bacon",
+"pos": "DE",
+"stats": {
+"sacks": 130.5
+},
+"to": 1981
+},
+{
+"from": 1987,
+"name": "Cris Carter",
+"pos": "WR",
+"stats": {
+"rec": 1101,
+"rec_td": 130,
+"rec_yds": 13899
+},
+"to": 2002
+},
+{
+"from": 1968,
+"name": "Curley Culp",
+"pos": "DT",
+"stats": {
+"sacks": 68.5
+},
+"to": 1981
+},
+{
+"from": 1995,
+"name": "Curtis Martin",
+"pos": "RB",
+"stats": {
+"rec": 484,
+"rec_td": 10,
+"rec_yds": 3329,
+"rush_td": 90,
+"rush_yds": 14101
+},
+"to": 2005
+},
+{
+"from": 1994,
+"name": "D'Marco Farr",
+"pos": "DT",
+"stats": {
+"ints": 3,
+"sacks": 36.5
+},
+"to": 2003
+},
+{
+"from": 2016,
+"name": "Dak Prescott",
+"pos": "QB",
+"stats": {
+"pass_td": 257,
+"pass_yds": 38035
+},
+"to": 2026
+},
+{
+"from": 1998,
+"name": "Damon Gibson",
+"pos": "WR",
+"stats": {
+"rec": 21,
+"rec_td": 3,
+"rec_yds": 271
+},
+"to": 2002
+},
+{
+"from": 1996,
+"name": "Damon Huard",
+"pos": "QB",
+"stats": {
+"pass_td": 33,
+"pass_yds": 6303
+},
+"to": 2009
+},
+{
+"from": 1936,
+"name": "Dan Fortmann",
+"pos": "LB",
+"stats": {
+"ints": 8
+},
+"to": 1943
+},
+{
+"from": 1973,
+"name": "Dan Fouts",
+"pos": "QB",
+"stats": {
+"pass_td": 254,
+"pass_yds": 43040,
+"rush_td": 13,
+"rush_yds": 476
+},
+"to": 1987
+},
+{
+"from": 1979,
+"name": "Dan Hampton",
+"pos": "DT",
+"stats": {
+"sacks": 57
+},
+"to": 1990
+},
+{
+"from": 1983,
+"name": "Dan Marino",
+"pos": "QB",
+"stats": {
+"pass_td": 420,
+"pass_yds": 61361
+},
+"to": 1999
+},
+{
+"from": 2015,
+"name": "Danielle Hunter",
+"pos": "DE",
+"stats": {
+"sacks": 118.5
+},
+"to": 2026
+},
+{
+"from": 1946,
+"name": "Dante Lavelli",
+"pos": "WR",
+"stats": {
+"rec": 386,
+"rec_td": 62,
+"rec_yds": 6488
+},
+"to": 1956
+},
+{
+"from": 1983,
+"name": "Darrell Green",
+"pos": "DB",
+"stats": {
+"ints": 54
+},
+"to": 2002
+},
+{
+"from": 2007,
+"name": "Darrelle Revis",
+"pos": "CB",
+"stats": {
+"ints": 29
+},
+"to": 2017
+},
+{
+"from": 1992,
+"name": "Darren Mickell",
+"pos": "DE",
+"stats": {
+"sacks": 26
+},
+"to": 2001
+},
+{
+"from": 1997,
+"name": "Darren Sharper",
+"pos": "S",
+"stats": {
+"ints": 63
+},
+"to": 2010
+},
+{
+"from": 2014,
+"name": "Davante Adams",
+"pos": "WR",
+"stats": {
+"rec": 1047,
+"rec_td": 121,
+"rec_yds": 13113
+},
+"to": 2026
+},
+{
+"from": 1975,
+"name": "Dave Brown",
+"pos": "DB",
+"stats": {
+"ints": 62
+},
+"to": 1989
+},
+{
+"from": 1992,
+"name": "Dave Brown",
+"pos": "QB",
+"stats": {
+"pass_td": 44,
+"pass_yds": 10248
+},
+"to": 2001
+},
+{
+"from": 1974,
+"name": "Dave Casper",
+"pos": "TE",
+"stats": {
+"rec": 378,
+"rec_td": 52,
+"rec_yds": 5216
+},
+"to": 1984
+},
+{
+"from": 1980,
+"name": "Dave Krieg",
+"pos": "QB",
+"stats": {
+"pass_td": 261,
+"pass_yds": 38147
+},
+"to": 1998
+},
+{
+"from": 1963,
+"name": "Dave Robinson",
+"pos": "LB",
+"stats": {
+"ints": 27,
+"sacks": 28.5
+},
+"to": 1974
+},
+{
+"from": 1964,
+"name": "Dave Wilcox",
+"pos": "LB",
+"stats": {
+"ints": 14,
+"sacks": 36.5
+},
+"to": 1974
+},
+{
+"from": 1996,
+"name": "David Patten",
+"pos": "WR",
+"stats": {
+"rec": 324,
+"rec_td": 24,
+"rec_yds": 4715
+},
+"to": 2010
+},
+{
+"from": 2013,
+"name": "DeAndre Hopkins",
+"pos": "WR",
+"stats": {
+"rec": 1006,
+"rec_td": 85,
+"rec_yds": 13295
+},
+"to": 2025
+},
+{
+"from": 2005,
+"name": "DeMarcus Ware",
+"pos": "DE",
+"stats": {
+"ints": 3,
+"sacks": 138.5
+},
+"to": 2016
+},
+{
+"from": 2008,
+"name": "DeSean Jackson",
+"pos": "WR",
+"stats": {
+"rec": 641,
+"rec_yds": 11263
+},
+"to": 2022
+},
+{
+"from": 1961,
+"name": "Deacon Jones",
+"pos": "DE",
+"stats": {
+"ints": 2,
+"sacks": 173.5
+},
+"to": 1974
+},
+{
+"from": 1989,
+"name": "Deion Sanders",
+"pos": "CB",
+"stats": {
+"ints": 53,
+"rec": 60,
+"rec_yds": 784
+},
+"to": 2005
+},
+{
+"from": 2014,
+"name": "Derek Carr",
+"pos": "QB",
+"stats": {
+"pass_td": 257,
+"pass_yds": 41245
+},
+"to": 2024
+},
+{
+"from": 1990,
+"name": "Derek Loville",
+"pos": "RB",
+"stats": {
+"rush_td": 16,
+"rush_yds": 1620
+},
+"to": 2000
+},
+{
+"from": 1981,
+"name": "Deron Cherry",
+"pos": "S",
+"stats": {
+"ints": 50
+},
+"to": 1991
+},
+{
+"from": 1995,
+"name": "Derrick Brooks",
+"pos": "—",
+"stats": {
+"ints": 25,
+"sacks": 13.5
+},
+"to": 2008
+},
+{
+"from": 2016,
+"name": "Derrick Henry",
+"pos": "RB",
+"stats": {
+"rush_td": 130,
+"rush_yds": 13650
+},
+"to": 2026
+},
+{
+"from": 1997,
+"name": "Derrick Mason",
+"pos": "WR",
+"stats": {
+"rec": 943,
+"rec_yds": 12061
+},
+"to": 2011
+},
+{
+"from": 1989,
+"name": "Derrick Thomas",
+"pos": "OLB",
+"stats": {
+"ints": 1,
+"sacks": 126.5
+},
+"to": 1999
+},
+{
+"from": 2006,
+"name": "Devin Hester",
+"pos": "WR",
+"stats": {
+"rec": 255,
+"rec_td": 16,
+"rec_yds": 3311
+},
+"to": 2018
+},
+{
+"from": 1981,
+"name": "Dexter Manley",
+"pos": "DE",
+"stats": {
+"sacks": 103.5
+},
+"to": 1991
+},
+{
+"from": 2010,
+"name": "Dez Bryant",
+"pos": "WR",
+"stats": {
+"rec_td": 75
+},
+"to": 2020
+},
+{
+"from": 1965,
+"name": "Dick Butkus",
+"pos": "LB",
+"stats": {
+"ints": 22
+},
+"to": 1973
+},
+{
+"from": 1959,
+"name": "Dick LeBeau",
+"pos": "DB",
+"stats": {
+"ints": 62
+},
+"to": 1972
+},
+{
+"from": 1950,
+"name": "Doak Walker",
+"pos": "RB",
+"stats": {
+"rec": 152,
+"rec_td": 21,
+"rec_yds": 2539,
+"rush_td": 12,
+"rush_yds": 1520
+},
+"to": 1955
+},
+{
+"from": 1955,
+"name": "Don Burroughs",
+"pos": "S",
+"stats": {
+"ints": 50
+},
+"to": 1964
+},
+{
+"from": 1995,
+"name": "Don Davis",
+"pos": "LB",
+"stats": {
+"ints": 1
+},
+"to": 2006
+},
+{
+"from": 1935,
+"name": "Don Hutson",
+"pos": "WR",
+"stats": {
+"ints": 30,
+"rec": 488,
+"rec_td": 99,
+"rec_yds": 7991
+},
+"to": 1945
+},
+{
+"from": 1958,
+"name": "Don Maynard",
+"pos": "WR",
+"stats": {
+"rec": 633,
+"rec_td": 88,
+"rec_yds": 11834
+},
+"to": 1973
+},
+{
+"from": 1951,
+"name": "Don Shula",
+"pos": "DB",
+"stats": {
+"ints": 21
+},
+"to": 1957
+},
+{
+"from": 1999,
+"name": "Donald Driver",
+"pos": "WR",
+"stats": {
+"rec": 743,
+"rec_yds": 10137
+},
+"to": 2012
+},
+{
+"from": 1974,
+"name": "Donnie Shell",
+"pos": "DB",
+"stats": {
+"ints": 51
+},
+"to": 1987
+},
+{
+"from": 1999,
+"name": "Donovan McNabb",
+"pos": "QB",
+"stats": {
+"pass_td": 234,
+"pass_yds": 37276
+},
+"to": 2011
+},
+{
+"from": 1953,
+"name": "Doug Atkins",
+"pos": "DE",
+"stats": {
+"ints": 3,
+"sacks": 94.5
+},
+"to": 1969
+},
+{
+"from": 1991,
+"name": "Doug Pederson",
+"pos": "QB",
+"stats": {
+"pass_td": 12,
+"pass_yds": 2762
+},
+"to": 2004
+},
+{
+"from": 1993,
+"name": "Drew Bledsoe",
+"pos": "QB",
+"stats": {
+"pass_td": 251,
+"pass_yds": 44611
+},
+"to": 2006
+},
+{
+"from": 2001,
+"name": "Drew Brees",
+"pos": "QB",
+"stats": {
+"pass_td": 571,
+"pass_yds": 80358,
+"rush_td": 25,
+"rush_yds": 752
+},
+"to": 2020
+},
+{
+"from": 1973,
+"name": "Drew Pearson",
+"pos": "WR",
+"stats": {
+"rec": 489,
+"rec_td": 48,
+"rec_yds": 7822
+},
+"to": 1983
+},
+{
+"from": 1931,
+"name": "Dutch Clark",
+"pos": "BACK",
+"stats": {
+"pass_td": 11,
+"pass_yds": 1507,
+"rec": 28,
+"rec_td": 6,
+"rec_yds": 341,
+"rush_td": 36,
+"rush_yds": 2772
+},
+"to": 1938
+},
+{
+"from": 1994,
+"name": "Dwayne Carswell",
+"pos": "OL",
+"stats": {
+"rec": 192,
+"rec_td": 15,
+"rec_yds": 1707
+},
+"to": 2007
+},
+{
+"from": 2002,
+"name": "Dwight Freeney",
+"pos": "DE",
+"stats": {
+"sacks": 125.5
+},
+"to": 2017
+},
+{
+"from": 1987,
+"name": "Dwight Stone",
+"pos": "WR",
+"stats": {
+"rec": 154,
+"rec_yds": 2478,
+"rush_yds": 596
+},
+"to": 2000
+},
+{
+"from": 1978,
+"name": "Earl Campbell",
+"pos": "RB",
+"stats": {
+"rec": 121,
+"rec_yds": 806,
+"rush_td": 74,
+"rush_yds": 9407
+},
+"to": 1985
+},
+{
+"from": 1997,
+"name": "Earl Little",
+"pos": "DB",
+"stats": {
+"ints": 18,
+"sacks": 1
+},
+"to": 2005
+},
+{
+"from": 2002,
+"name": "Ed Reed",
+"pos": "S",
+"stats": {
+"ints": 64,
+"sacks": 6
+},
+"to": 2013
+},
+{
+"from": 1944,
+"name": "Ed Sprinkle",
+"pos": "DE",
+"stats": {
+"ints": 4,
+"rec": 32,
+"rec_td": 7,
+"rec_yds": 451
+},
+"to": 1955
+},
+{
+"from": 1996,
+"name": "Eddie George",
+"pos": "RB",
+"stats": {
+"rush_yds": 10441
+},
+"to": 2004
+},
+{
+"from": 1999,
+"name": "Edgerrin James",
+"pos": "RB",
+"stats": {
+"rec": 433,
+"rec_td": 11,
+"rec_yds": 3364,
+"rush_td": 80,
+"rush_yds": 12246
+},
+"to": 2009
+},
+{
+"from": 2004,
+"name": "Eli Manning",
+"pos": "QB",
+"stats": {
+"pass_td": 366,
+"pass_yds": 57023
+},
+"to": 2019
+},
+{
+"from": 1946,
+"name": "Elroy Hirsch",
+"pos": "RB",
+"stats": {
+"rec": 387,
+"rec_td": 60,
+"rec_yds": 7029
+},
+"to": 1957
+},
+{
+"from": 1968,
+"name": "Elvin Bethea",
+"pos": "DE",
+"stats": {
+"sacks": 105
+},
+"to": 1983
+},
+{
+"from": 2006,
+"name": "Elvis Dumervil",
+"pos": "DE",
+"stats": {
+"sacks": 105.5
+},
+"to": 2017
+},
+{
+"from": 1948,
+"name": "Emlen Tunnell",
+"pos": "DB",
+"stats": {
+"ints": 79
+},
+"to": 1961
+},
+{
+"from": 1990,
+"name": "Emmitt Smith",
+"pos": "RB",
+"stats": {
+"rec": 515,
+"rec_td": 11,
+"rec_yds": 3224,
+"rush_td": 164,
+"rush_yds": 18355
+},
+"to": 2004
+},
+{
+"from": 1966,
+"name": "Emmitt Thomas",
+"pos": "DB",
+"stats": {
+"ints": 58
+},
+"to": 1978
+},
+{
+"from": 1988,
+"name": "Eric Allen",
+"pos": "CB",
+"stats": {
+"ints": 54,
+"sacks": 3
+},
+"to": 2001
+},
+{
+"from": 1983,
+"name": "Eric Dickerson",
+"pos": "RB",
+"stats": {
+"rec": 281,
+"rec_td": 6,
+"rec_yds": 2137,
+"rush_td": 90,
+"rush_yds": 13259
+},
+"to": 1993
+},
+{
+"from": 1998,
+"name": "Eric Hicks",
+"pos": "DE",
+"stats": {
+"sacks": 44.5
+},
+"to": 2009
+},
+{
+"from": 1987,
+"name": "Erik Kramer",
+"pos": "QB",
+"stats": {
+"pass_td": 92,
+"pass_yds": 15337,
+"rush_td": 5,
+"rush_yds": 217
+},
+"to": 1999
+},
+{
+"from": 1926,
+"name": "Ernie Nevers",
+"pos": "FB",
+"stats": {
+"rush_td": 38
+},
+"to": 1931
+},
+{
+"from": 1950,
+"name": "Ernie Stautner",
+"pos": "DT",
+"stats": {
+"ints": 2
+},
+"to": 1963
+},
+{
+"from": 1985,
+"name": "Eugene Robinson",
+"pos": "S",
+"stats": {
+"ints": 57,
+"sacks": 7.5
+},
+"to": 2000
+},
+{
+"from": 1981,
+"name": "Everson Walls",
+"pos": "CB",
+"stats": {
+"ints": 57
+},
+"to": 1993
+},
+{
+"from": 1967,
+"name": "Floyd Little",
+"pos": "RB",
+"stats": {
+"rec": 215,
+"rec_td": 9,
+"rec_yds": 2418,
+"rush_td": 43,
+"rush_yds": 6323
+},
+"to": 1975
+},
+{
+"from": 1961,
+"name": "Fran Tarkenton",
+"pos": "QB",
+"stats": {
+"pass_td": 342,
+"pass_yds": 47003,
+"rush_td": 32,
+"rush_yds": 3674
+},
+"to": 1978
+},
+{
+"from": 1972,
+"name": "Franco Harris",
+"pos": "RB",
+"stats": {
+"rec": 307,
+"rec_td": 9,
+"rec_yds": 2287,
+"rush_td": 91,
+"rush_yds": 12120
+},
+"to": 1984
+},
+{
+"from": 1946,
+"name": "Frank Gatski",
+"pos": "LB",
+"stats": {
+"ints": 3
+},
+"to": 1957
+},
+{
+"from": 1952,
+"name": "Frank Gifford",
+"pos": "RB",
+"stats": {
+"ints": 2,
+"rec": 367,
+"rec_td": 43,
+"rec_yds": 5434,
+"rush_td": 34,
+"rush_yds": 3609
+},
+"to": 1964
+},
+{
+"from": 2005,
+"name": "Frank Gore",
+"pos": "RB",
+"stats": {
+"rush_td": 81,
+"rush_yds": 16000
+},
+"to": 2020
+},
+{
+"from": 1965,
+"name": "Fred Biletnikoff",
+"pos": "WR",
+"stats": {
+"rec": 589,
+"rec_td": 76,
+"rec_yds": 8974
+},
+"to": 1978
+},
+{
+"from": 1975,
+"name": "Fred Dean",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 92
+},
+"to": 1985
+},
+{
+"from": 1969,
+"name": "Fred Dryer",
+"pos": "DE",
+"stats": {
+"sacks": 103
+},
+"to": 1981
+},
+{
+"from": 1997,
+"name": "Fred Lane",
+"pos": "RB",
+"stats": {
+"rec": 43,
+"rec_yds": 275,
+"rush_td": 13,
+"rush_yds": 2001
+},
+"to": 2000
+},
+{
+"from": 1998,
+"name": "Fred Taylor",
+"pos": "RB",
+"stats": {
+"rush_yds": 11695
+},
+"to": 2010
+},
+{
+"from": 1920,
+"name": "Fritz Pollard",
+"pos": "BACK",
+"stats": {
+"rec_td": 2,
+"rush_td": 16
+},
+"to": 1926
+},
+{
+"from": 1965,
+"name": "Gale Sayers",
+"pos": "RB",
+"stats": {
+"rec": 112,
+"rec_td": 9,
+"rec_yds": 1307,
+"rush_td": 39,
+"rush_yds": 4956
+},
+"to": 1971
+},
+{
+"from": 1985,
+"name": "Gary Clark",
+"pos": "WR",
+"stats": {
+"rec": 699,
+"rec_yds": 10856
+},
+"to": 1995
+},
+{
+"from": 1949,
+"name": "George Blanda",
+"pos": "QB",
+"stats": {
+"pass_td": 236,
+"pass_yds": 26920
+},
+"to": 1975
+},
+{
+"from": 1993,
+"name": "George Coghill",
+"pos": "DB",
+"stats": {
+"ints": 3
+},
+"to": 2001
+},
+{
+"name": "George Connor",
+"pos": "LB",
+"stats": {
+"ints": 7
+}
+},
+{
+"from": 1991,
+"name": "George Koonce",
+"pos": "LB",
+"stats": {
+"ints": 5,
+"sacks": 9
+},
+"to": 2000
+},
+{
+"from": 1940,
+"name": "George McAfee",
+"pos": "DB",
+"stats": {
+"ints": 25,
+"rec": 85,
+"rec_td": 11,
+"rec_yds": 1359,
+"rush_td": 21,
+"rush_yds": 1685
+},
+"to": 1950
+},
+{
+"from": 1952,
+"name": "Gino Marchetti",
+"pos": "OL",
+"stats": {
+"ints": 1,
+"sacks": 56
+},
+"to": 1966
+},
+{
+"from": 1983,
+"name": "Greg Townsend",
+"pos": "DE",
+"stats": {
+"sacks": 109.5
+},
+"to": 1997
+},
+{
+"from": 1990,
+"name": "Harald Hasselbach",
+"pos": "DE",
+"stats": {
+"sacks": 17.5
+},
+"to": 2001
+},
+{
+"from": 1971,
+"name": "Harold Carmichael",
+"pos": "WR",
+"stats": {
+"rec": 590,
+"rec_td": 79,
+"rec_yds": 8985
+},
+"to": 1984
+},
+{
+"from": 1968,
+"name": "Harold Jackson",
+"pos": "WR",
+"stats": {
+"rec": 579,
+"rec_td": 76,
+"rec_yds": 10372
+},
+"to": 1983
+},
+{
+"from": 1996,
+"name": "Harold Morrow",
+"pos": "FB",
+"stats": {
+"rec": 14,
+"rec_yds": 144,
+"rush_yds": 75
+},
+"to": 2005
+},
+{
+"from": 1976,
+"name": "Harry Carson",
+"pos": "LB",
+"stats": {
+"ints": 11,
+"sacks": 8
+},
+"to": 1988
+},
+{
+"from": 1973,
+"name": "Harvey Martin",
+"pos": "DE",
+"stats": {
+"sacks": 114
+},
+"to": 1983
+},
+{
+"from": 1983,
+"name": "Henry Ellard",
+"pos": "WR",
+"stats": {
+"rec": 814,
+"rec_yds": 13777
+},
+"to": 1998
+},
+{
+"from": 1957,
+"name": "Henry Jordan",
+"pos": "DT",
+"stats": {
+"sacks": 59.5
+},
+"to": 1969
+},
+{
+"name": "Herb Adderley",
+"pos": "CB",
+"stats": {
+"ints": 48
+}
+},
+{
+"from": 1998,
+"name": "Hines Ward",
+"pos": "WR",
+"stats": {
+"rec": 1000,
+"rec_td": 85,
+"rec_yds": 12083
+},
+"to": 2011
+},
+{
+"from": 1996,
+"name": "Hollis Thomas",
+"pos": "DT",
+"stats": {
+"sacks": 20
+},
+"to": 2010
+},
+{
+"from": 1981,
+"name": "Howie Long",
+"pos": "DE",
+"stats": {
+"ints": 2,
+"sacks": 93
+},
+"to": 1993
+},
+{
+"from": 1952,
+"name": "Hugh McElhenny",
+"pos": "RB",
+"stats": {
+"rec": 264,
+"rec_td": 20,
+"rec_yds": 3247,
+"rush_td": 38,
+"rush_yds": 5281
+},
+"to": 1964
+},
+{
+"from": 1994,
+"name": "Hurvin McCormack",
+"pos": "DE",
+"stats": {
+"sacks": 12
+},
+"to": 1999
+},
+{
+"from": 1984,
+"name": "Irving Fryar",
+"pos": "WR",
+"stats": {
+"rec": 851,
+"rec_td": 84,
+"rec_yds": 12785
+},
+"to": 2000
+},
+{
+"from": 1994,
+"name": "Isaac Bruce",
+"pos": "WR",
+"stats": {
+"rec": 1024,
+"rec_td": 91,
+"rec_yds": 15208
+},
+"to": 2009
+},
+{
+"from": 2011,
+"name": "J. J. Watt",
+"pos": "DE",
+"stats": {
+"sacks": 114.5
+},
+"to": 2022
+},
+{
+"from": 1951,
+"name": "Jack Butler",
+"pos": "DB",
+"stats": {
+"ints": 52
+},
+"to": 1959
+},
+{
+"from": 1951,
+"name": "Jack Christiansen",
+"pos": "S",
+"stats": {
+"ints": 46
+},
+"to": 1958
+},
+{
+"from": 1967,
+"name": "Jack Gregory",
+"pos": "DE",
+"stats": {
+"sacks": 106
+},
+"to": 1979
+},
+{
+"from": 1971,
+"name": "Jack Ham",
+"pos": "LB",
+"stats": {
+"ints": 32
+},
+"to": 1982
+},
+{
+"from": 1974,
+"name": "Jack Lambert",
+"pos": "LB",
+"stats": {
+"ints": 28,
+"sacks": 8
+},
+"to": 1984
+},
+{
+"from": 1971,
+"name": "Jack Youngblood",
+"pos": "DE",
+"stats": {
+"sacks": 151.5
+},
+"to": 1984
+},
+{
+"from": 1963,
+"name": "Jackie Smith",
+"pos": "TE",
+"stats": {
+"rec": 480,
+"rec_td": 40,
+"rec_yds": 7918
+},
+"to": 1978
+},
+{
+"from": 1980,
+"name": "Jacob Green",
+"pos": "DE",
+"stats": {
+"sacks": 115.5
+},
+"to": 1992
+},
+{
+"from": 1997,
+"name": "Jake Delhomme",
+"pos": "QB",
+"stats": {
+"pass_td": 126,
+"pass_yds": 20975
+},
+"to": 2011
+},
+{
+"from": 2000,
+"name": "Jamal Lewis",
+"pos": "RB",
+"stats": {
+"rush_yds": 10607
+},
+"to": 2009
+},
+{
+"from": 1998,
+"name": "Jamal Williams",
+"pos": "DT",
+"stats": {
+"ints": 1,
+"sacks": 13
+},
+"to": 2010
+},
+{
+"from": 1997,
+"name": "James Allen",
+"pos": "RB",
+"stats": {
+"rec": 133,
+"rec_td": 3,
+"rec_yds": 964,
+"rush_td": 4,
+"rush_yds": 2497
+},
+"to": 2002
+},
+{
+"from": 1992,
+"name": "James Harris",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 9.5
+},
+"to": 1999
+},
+{
+"from": 1991,
+"name": "James Jenkins",
+"pos": "TE",
+"stats": {
+"rec": 15,
+"rec_yds": 114
+},
+"to": 2000
+},
+{
+"from": 1993,
+"name": "James Jett",
+"pos": "WR",
+"stats": {
+"rec": 256,
+"rec_td": 30,
+"rec_yds": 4417
+},
+"to": 2003
+},
+{
+"from": 1978,
+"name": "James Lofton",
+"pos": "WR",
+"stats": {
+"rec": 764,
+"rec_td": 75,
+"rec_yds": 14004
+},
+"to": 1993
+},
+{
+"from": 1994,
+"name": "James McKnight",
+"pos": "WR",
+"stats": {
+"rec": 222,
+"rec_td": 18,
+"rec_yds": 3595
+},
+"to": 2004
+},
+{
+"from": 1995,
+"name": "James Roberson",
+"pos": "DE",
+"stats": {
+"sacks": 6
+},
+"to": 2001
+},
+{
+"from": 1997,
+"name": "James Thrash",
+"pos": "WR",
+"stats": {
+"rec": 290,
+"rec_td": 22,
+"rec_yds": 3646
+},
+"to": 2008
+},
+{
+"from": 1993,
+"name": "Jamie Martin",
+"pos": "QB",
+"stats": {
+"pass_td": 20,
+"pass_yds": 3814
+},
+"to": 2008
+},
+{
+"from": 2004,
+"name": "Jared Allen",
+"pos": "DE",
+"stats": {
+"ints": 6,
+"sacks": 136
+},
+"to": 2015
+},
+{
+"from": 2016,
+"name": "Jared Goff",
+"pos": "QB",
+"stats": {
+"pass_td": 271,
+"pass_yds": 41586
+},
+"to": 2026
+},
+{
+"from": 1989,
+"name": "Jason Garrett",
+"pos": "QB",
+"stats": {
+"pass_td": 11,
+"pass_yds": 2042
+},
+"to": 2004
+},
+{
+"from": 1997,
+"name": "Jason Taylor",
+"pos": "DE",
+"stats": {
+"ints": 8,
+"sacks": 139.5
+},
+"to": 2011
+},
+{
+"from": 2003,
+"name": "Jason Witten",
+"pos": "TE",
+"stats": {
+"rec": 1228,
+"rec_yds": 13046
+},
+"to": 2020
+},
+{
+"from": 1994,
+"name": "Jay Bellamy",
+"pos": "DB",
+"stats": {
+"ints": 24,
+"sacks": 9.5
+},
+"to": 2007
+},
+{
+"from": 2006,
+"name": "Jay Cutler",
+"pos": "QB",
+"stats": {
+"pass_td": 227,
+"pass_yds": 35133
+},
+"to": 2017
+},
+{
+"from": 1994,
+"name": "Jay Fiedler",
+"pos": "QB",
+"stats": {
+"pass_td": 69,
+"pass_yds": 11844
+},
+"to": 2006
+},
+{
+"from": 1994,
+"name": "Jay Williams",
+"pos": "DE",
+"stats": {
+"ints": 2,
+"sacks": 23.5
+},
+"to": 2005
+},
+{
+"from": 1996,
+"name": "Jeff Gooch",
+"pos": "LB",
+"stats": {
+"ints": 1,
+"sacks": 2
+},
+"to": 2005
+},
+{
+"from": 1998,
+"name": "Jeff Ogden",
+"pos": "WR",
+"stats": {
+"rec": 28,
+"rec_yds": 304
+},
+"to": 2002
+},
+{
+"from": 1997,
+"name": "Jeff Posey",
+"pos": "LB",
+"stats": {
+"ints": 2,
+"sacks": 20.5
+},
+"to": 2006
+},
+{
+"from": 1992,
+"name": "Jeff Thomason",
+"pos": "TE",
+"stats": {
+"rec": 67,
+"rec_td": 10,
+"rec_yds": 650
+},
+"to": 2004
+},
+{
+"from": 1993,
+"name": "Jerome Bettis",
+"pos": "RB",
+"stats": {
+"rec": 200,
+"rec_td": 3,
+"rec_yds": 1449,
+"rush_td": 91,
+"rush_yds": 13662
+},
+"to": 2005
+},
+{
+"from": 1995,
+"name": "Jerry Drake",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 1
+},
+"to": 2000
+},
+{
+"from": 1985,
+"name": "Jerry Rice",
+"pos": "WR",
+"stats": {
+"rec": 1549,
+"rec_td": 197,
+"rec_yds": 22895
+},
+"to": 2004
+},
+{
+"from": 1987,
+"name": "Jessie Tuggle",
+"pos": "LB",
+"stats": {
+"ints": 6,
+"sacks": 21
+},
+"to": 2000
+},
+{
+"from": 1957,
+"name": "Jim Brown",
+"pos": "RB",
+"stats": {
+"rec": 262,
+"rec_td": 20,
+"rec_yds": 2499,
+"rush_td": 106,
+"rush_yds": 12312
+},
+"to": 1965
+},
+{
+"from": 1986,
+"name": "Jim Everett",
+"pos": "QB",
+"stats": {
+"pass_yds": 34837
+},
+"to": 1997
+},
+{
+"from": 1949,
+"name": "Jim Finks",
+"pos": "DB",
+"stats": {
+"pass_td": 55,
+"pass_yds": 8622,
+"rush_td": 12,
+"rush_yds": 294
+},
+"to": 1957
+},
+{
+"from": 1966,
+"name": "Jim Hart",
+"pos": "QB",
+"stats": {
+"pass_td": 209,
+"pass_yds": 34665
+},
+"to": 1984
+},
+{
+"from": 1983,
+"name": "Jim Jeffcoat",
+"pos": "DE",
+"stats": {
+"sacks": 102.5
+},
+"to": 1997
+},
+{
+"from": 1986,
+"name": "Jim Kelly",
+"pos": "QB",
+"stats": {
+"pass_td": 237,
+"pass_yds": 35467
+},
+"to": 1996
+},
+{
+"from": 1960,
+"name": "Jim Marshall",
+"pos": "DE",
+"stats": {
+"sacks": 129.5
+},
+"to": 1979
+},
+{
+"from": 1998,
+"name": "Jim Nelson",
+"pos": "LB",
+"stats": {
+"ints": 4
+},
+"to": 2005
+},
+{
+"from": 1958,
+"name": "Jim Taylor",
+"pos": "RB",
+"stats": {
+"rec": 225,
+"rec_td": 10,
+"rec_yds": 1756,
+"rush_td": 83,
+"rush_yds": 8597
+},
+"to": 1967
+},
+{
+"from": 1920,
+"name": "Jim Thorpe",
+"pos": "—",
+"stats": {
+"rush_td": 6
+},
+"to": 1928
+},
+{
+"from": 1920,
+"name": "Jimmy Conzelman",
+"pos": "RB",
+"stats": {
+"rush_td": 16
+},
+"to": 1929
+},
+{
+"from": 2010,
+"name": "Jimmy Graham",
+"pos": "WR",
+"stats": {
+"rec_td": 89
+},
+"to": 2023
+},
+{
+"from": 1961,
+"name": "Jimmy Johnson",
+"pos": "CB",
+"stats": {
+"ints": 47
+},
+"to": 1976
+},
+{
+"from": 1955,
+"name": "Jimmy Patton",
+"pos": "S",
+"stats": {
+"ints": 52
+},
+"to": 1966
+},
+{
+"from": 1992,
+"name": "Jimmy Smith",
+"pos": "WR",
+"stats": {
+"rec": 862,
+"rec_yds": 12287
+},
+"to": 2005
+},
+{
+"from": 2008,
+"name": "Joe Flacco",
+"pos": "QB",
+"stats": {
+"pass_td": 272,
+"pass_yds": 48176
+},
+"to": 2026
+},
+{
+"from": 1969,
+"name": "Joe Greene",
+"pos": "DT",
+"stats": {
+"ints": 1,
+"sacks": 77.5
+},
+"to": 1981
+},
+{
+"from": 1977,
+"name": "Joe Klecko",
+"pos": "DT",
+"stats": {
+"sacks": 78
+},
+"to": 1988
+},
+{
+"from": 1979,
+"name": "Joe Montana",
+"pos": "QB",
+"stats": {
+"pass_td": 273,
+"pass_yds": 40551,
+"rush_td": 20,
+"rush_yds": 1676
+},
+"to": 1994
+},
+{
+"from": 1965,
+"name": "Joe Namath",
+"pos": "QB",
+"stats": {
+"pass_td": 173,
+"pass_yds": 27663
+},
+"to": 1977
+},
+{
+"from": 1948,
+"name": "Joe Perry",
+"pos": "FB",
+"stats": {
+"rec": 260,
+"rec_td": 12,
+"rec_yds": 2021,
+"rush_td": 71,
+"rush_yds": 9723
+},
+"to": 1963
+},
+{
+"from": 1953,
+"name": "Joe Schmidt",
+"pos": "LB",
+"stats": {
+"ints": 24
+},
+"to": 1965
+},
+{
+"from": 1936,
+"name": "Joe Stydahar",
+"pos": "OL",
+"stats": {
+"ints": 1
+},
+"to": 1946
+},
+{
+"from": 1995,
+"name": "Joey Galloway",
+"pos": "WR",
+"stats": {
+"rec": 701,
+"rec_td": 77,
+"rec_yds": 10950
+},
+"to": 2010
+},
+{
+"from": 2000,
+"name": "John Abraham",
+"pos": "DE",
+"stats": {
+"sacks": 133.5
+},
+"to": 2014
+},
+{
+"from": 1957,
+"name": "John Brodie",
+"pos": "QB",
+"stats": {
+"pass_td": 214
+},
+"to": 1973
+},
+{
+"from": 1994,
+"name": "John Davis",
+"pos": "TE",
+"stats": {
+"rec": 55,
+"rec_td": 6,
+"rec_yds": 517
+},
+"to": 2003
+},
+{
+"from": 1983,
+"name": "John Elway",
+"pos": "QB",
+"stats": {
+"pass_td": 300,
+"pass_yds": 51475,
+"rush_td": 33,
+"rush_yds": 3407
+},
+"to": 1998
+},
+{
+"from": 1962,
+"name": "John Hadl",
+"pos": "QB",
+"stats": {
+"pass_td": 244,
+"pass_yds": 33503
+},
+"to": 1977
+},
+{
+"from": 1978,
+"name": "John Harris",
+"pos": "S",
+"stats": {
+"ints": 50
+},
+"to": 1988
+},
+{
+"from": 1953,
+"name": "John Henry Johnson",
+"pos": "FB",
+"stats": {
+"rush_td": 48,
+"rush_yds": 6803
+},
+"to": 1966
+},
+{
+"from": 1993,
+"name": "John Lynch",
+"pos": "—",
+"stats": {
+"ints": 26,
+"sacks": 13
+},
+"to": 2008
+},
+{
+"from": 1963,
+"name": "John Mackey",
+"pos": "TE",
+"stats": {
+"rec": 331,
+"rec_td": 38,
+"rec_yds": 5236
+},
+"to": 1972
+},
+{
+"from": 1990,
+"name": "John Randle",
+"pos": "DT",
+"stats": {
+"ints": 1,
+"sacks": 137.5
+},
+"to": 2003
+},
+{
+"from": 1971,
+"name": "John Riggins",
+"pos": "RB",
+"stats": {
+"rec": 250,
+"rec_td": 12,
+"rec_yds": 2090,
+"rush_td": 104,
+"rush_yds": 11352
+},
+"to": 1985
+},
+{
+"from": 1974,
+"name": "John Stallworth",
+"pos": "WR",
+"stats": {
+"rec": 537,
+"rec_td": 63,
+"rec_yds": 8723
+},
+"to": 1987
+},
+{
+"from": 1960,
+"name": "Johnny Robinson",
+"pos": "DB",
+"stats": {
+"ints": 57,
+"rec": 77,
+"rec_yds": 1228,
+"rush_yds": 658
+},
+"to": 1971
+},
+{
+"from": 1956,
+"name": "Johnny Unitas",
+"pos": "QB",
+"stats": {
+"pass_td": 290,
+"pass_yds": 40239,
+"rush_td": 13,
+"rush_yds": 1777
+},
+"to": 1973
+},
+{
+"from": 1996,
+"name": "Jon Kitna",
+"pos": "QB",
+"stats": {
+"pass_td": 169,
+"pass_yds": 29745
+},
+"to": 2013
+},
+{
+"from": 2020,
+"name": "Jonathan Taylor",
+"pos": "RB",
+"stats": {
+"rush_td": 77
+},
+"to": 2026
+},
+{
+"from": 2018,
+"name": "Josh Allen",
+"pos": "QB",
+"stats": {
+"pass_td": 231,
+"rush_td": 88
+},
+"to": 2026
+},
+{
+"from": 2019,
+"name": "Josh Jacobs",
+"pos": "RB",
+"stats": {
+"rush_td": 75
+},
+"to": 2026
+},
+{
+"from": 1995,
+"name": "Josh Taves",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 4
+},
+"to": 2002
+},
+{
+"from": 1998,
+"name": "Jude Waddy",
+"pos": "LB",
+"stats": {
+"sacks": 2
+},
+"to": 2005
+},
+{
+"from": 2011,
+"name": "Julio Jones",
+"pos": "WR",
+"stats": {
+"rec": 914,
+"rec_yds": 13703
+},
+"to": 2023
+},
+{
+"from": 2002,
+"name": "Julius Peppers",
+"pos": "DE",
+"stats": {
+"ints": 11,
+"sacks": 159.5
+},
+"to": 2018
+},
+{
+"from": 1993,
+"name": "Junior Bryant",
+"pos": "DE",
+"stats": {
+"sacks": 13.5
+},
+"to": 2002
+},
+{
+"from": 1990,
+"name": "Junior Seau",
+"pos": "LB",
+"stats": {
+"ints": 18,
+"sacks": 56.5
+},
+"to": 2009
+},
+{
+"from": 2011,
+"name": "Justin Houston",
+"pos": "OLB",
+"stats": {
+"sacks": 112
+},
+"to": 2023
+},
+{
+"from": 1997,
+"name": "Karl Hankton",
+"pos": "WR",
+"stats": {
+"rec": 20,
+"rec_yds": 267
+},
+"to": 2006
+},
+{
+"from": 1996,
+"name": "Karl Williams",
+"pos": "WR",
+"stats": {
+"rec": 155,
+"rec_td": 7,
+"rec_yds": 1897
+},
+"to": 2007
+},
+{
+"from": 1998,
+"name": "Kato Serwanga",
+"pos": "CB",
+"stats": {
+"ints": 3,
+"sacks": 3
+},
+"to": 2004
+},
+{
+"from": 2013,
+"name": "Keenan Allen",
+"pos": "WR",
+"stats": {
+"rec": 1091,
+"rec_yds": 12376
+},
+"to": 2026
+},
+{
+"from": 1992,
+"name": "Keenan McCardell",
+"pos": "WR",
+"stats": {
+"rec": 883,
+"rec_yds": 11373
+},
+"to": 2007
+},
+{
+"from": 1994,
+"name": "Keith Elias",
+"pos": "RB",
+"stats": {
+"rec": 22,
+"rec_yds": 147,
+"rush_yds": 124
+},
+"to": 2001
+},
+{
+"from": 1997,
+"name": "Keith Mitchell",
+"pos": "LB",
+"stats": {
+"ints": 4,
+"sacks": 19.5
+},
+"to": 2003
+},
+{
+"from": 1979,
+"name": "Kellen Winslow",
+"pos": "TE",
+"stats": {
+"rec": 541,
+"rec_td": 45,
+"rec_yds": 6741
+},
+"to": 1987
+},
+{
+"from": 1995,
+"name": "Kelly Holcomb",
+"pos": "QB",
+"stats": {
+"pass_td": 39,
+"pass_yds": 5916
+},
+"to": 2007
+},
+{
+"from": 1971,
+"name": "Ken Anderson",
+"pos": "QB",
+"stats": {
+"pass_yds": 32838
+},
+"to": 1986
+},
+{
+"from": 1967,
+"name": "Ken Houston",
+"pos": "S",
+"stats": {
+"ints": 49
+},
+"to": 1980
+},
+{
+"from": 1969,
+"name": "Ken Riley",
+"pos": "CB",
+"stats": {
+"ints": 65,
+"sacks": 1
+},
+"to": 1983
+},
+{
+"from": 1968,
+"name": "Ken Stabler",
+"pos": "QB",
+"stats": {
+"pass_td": 194,
+"pass_yds": 27938
+},
+"to": 1984
+},
+{
+"from": 1929,
+"name": "Ken Strong",
+"pos": "FB",
+"stats": {
+"rec": 42,
+"rec_td": 7,
+"rec_yds": 568,
+"rush_td": 24,
+"rush_yds": 2572
+},
+"to": 1947
+},
+{
+"from": 1981,
+"name": "Kenny Easley",
+"pos": "S",
+"stats": {
+"ints": 32,
+"sacks": 8
+},
+"to": 1987
+},
+{
+"from": 1995,
+"name": "Kerry Collins",
+"pos": "QB",
+"stats": {
+"pass_td": 208,
+"pass_yds": 40922
+},
+"to": 2011
+},
+{
+"from": 1995,
+"name": "Kevin Carter",
+"pos": "DE",
+"stats": {
+"sacks": 104.5
+},
+"to": 2008
+},
+{
+"from": 1985,
+"name": "Kevin Greene",
+"pos": "DE",
+"stats": {
+"ints": 5,
+"sacks": 160
+},
+"to": 1999
+},
+{
+"from": 1997,
+"name": "Kevin Mathis",
+"pos": "DB",
+"stats": {
+"ints": 11
+},
+"to": 2006
+},
+{
+"from": 1996,
+"name": "Keyshawn Johnson",
+"pos": "WR",
+"stats": {
+"rec": 814,
+"rec_yds": 10571
+},
+"to": 2006
+},
+{
+"from": 2014,
+"name": "Khalil Mack",
+"pos": "DE",
+"stats": {
+"sacks": 116
+},
+"to": 2026
+},
+{
+"from": 1990,
+"name": "Kimble Anders",
+"pos": "RB",
+"stats": {
+"rush_yds": 2261
+},
+"to": 2000
+},
+{
+"from": 2012,
+"name": "Kirk Cousins",
+"pos": "QB",
+"stats": {
+"pass_td": 317,
+"pass_yds": 46824
+},
+"to": 2026
+},
+{
+"from": 1998,
+"name": "Kurt Warner",
+"pos": "QB",
+"stats": {
+"pass_td": 208,
+"pass_yds": 32344
+},
+"to": 2009
+},
+{
+"from": 1995,
+"name": "Kwamie Lassiter",
+"pos": "DB",
+"stats": {
+"ints": 25
+},
+"to": 2004
+},
+{
+"from": 2001,
+"name": "LaDainian Tomlinson",
+"pos": "RB",
+"stats": {
+"rec": 624,
+"rec_td": 17,
+"rec_yds": 4772,
+"rush_td": 145,
+"rush_yds": 13684
+},
+"to": 2011
+},
+{
+"from": 1998,
+"name": "Lamar Campbell",
+"pos": "S",
+"stats": {
+"ints": 1,
+"sacks": 1
+},
+"to": 2005
+},
+{
+"from": 1962,
+"name": "Lance Alworth",
+"pos": "WR",
+"stats": {
+"rec": 542,
+"rec_td": 85,
+"rec_yds": 10266
+},
+"to": 1972
+},
+{
+"from": 1998,
+"name": "Larry Chester",
+"pos": "DT",
+"stats": {
+"sacks": 8.5
+},
+"to": 2004
+},
+{
+"from": 1968,
+"name": "Larry Csonka",
+"pos": "FB",
+"stats": {
+"rec": 106,
+"rec_td": 4,
+"rec_yds": 820,
+"rush_td": 64,
+"rush_yds": 8081
+},
+"to": 1979
+},
+{
+"from": 2004,
+"name": "Larry Fitzgerald",
+"pos": "WR",
+"stats": {
+"rec": 1432,
+"rec_td": 121,
+"rec_yds": 17492
+},
+"to": 2020
+},
+{
+"from": 1960,
+"name": "Larry Wilson",
+"pos": "S",
+"stats": {
+"ints": 52
+},
+"to": 1972
+},
+{
+"from": 1981,
+"name": "Lawrence Taylor",
+"pos": "OLB",
+"stats": {
+"ints": 9,
+"sacks": 132.5
+},
+"to": 1993
+},
+{
+"from": 1990,
+"name": "LeRoy Butler",
+"pos": "S",
+"stats": {
+"ints": 38,
+"sacks": 20.5
+},
+"to": 2001
+},
+{
+"from": 2009,
+"name": "LeSean McCoy",
+"pos": "RB",
+"stats": {
+"rush_yds": 11102
+},
+"to": 2020
+},
+{
+"from": 1976,
+"name": "Lee Roy Selmon",
+"pos": "DE",
+"stats": {
+"sacks": 78.5
+},
+"to": 1984
+},
+{
+"from": 1967,
+"name": "Lem Barney",
+"pos": "CB",
+"stats": {
+"ints": 56
+},
+"to": 1977
+},
+{
+"from": 1957,
+"name": "Len Dawson",
+"pos": "QB",
+"stats": {
+"pass_td": 239,
+"pass_yds": 28711
+},
+"to": 1975
+},
+{
+"from": 1948,
+"name": "Len Ford",
+"pos": "DE",
+"stats": {
+"ints": 3,
+"rec": 67,
+"rec_yds": 1175
+},
+"to": 1958
+},
+{
+"from": 1956,
+"name": "Lenny Moore",
+"pos": "RB",
+"stats": {
+"rec": 364,
+"rec_td": 48,
+"rec_yds": 6039,
+"rush_td": 63,
+"rush_yds": 5174
+},
+"to": 1967
+},
+{
+"from": 1996,
+"name": "Lenoy Jones",
+"pos": "LB",
+"stats": {
+"ints": 1,
+"sacks": 3.5
+},
+"to": 2002
+},
+{
+"from": 1950,
+"name": "Leo Nomellini",
+"pos": "DT",
+"stats": {
+"sacks": 13.5
+},
+"to": 1963
+},
+{
+"from": 1964,
+"name": "Leroy Kelly",
+"pos": "RB",
+"stats": {
+"rec": 190,
+"rec_yds": 2281,
+"rush_yds": 7274
+},
+"to": 1974
+},
+{
+"from": 1954,
+"name": "Les Richter",
+"pos": "K",
+"stats": {
+"ints": 16
+},
+"to": 1962
+},
+{
+"from": 1986,
+"name": "Leslie O'Neal",
+"pos": "DE",
+"stats": {
+"sacks": 132.5
+},
+"to": 1999
+},
+{
+"from": 1992,
+"name": "Leslie Shepherd",
+"pos": "WR",
+"stats": {
+"rec": 183,
+"rec_td": 22,
+"rec_yds": 2832
+},
+"to": 2002
+},
+{
+"from": 1998,
+"name": "Lional Dalton",
+"pos": "DT",
+"stats": {
+"sacks": 9
+},
+"to": 2006
+},
+{
+"from": 1998,
+"name": "London Fletcher",
+"pos": "LB",
+"stats": {
+"ints": 23,
+"sacks": 39
+},
+"to": 2013
+},
+{
+"from": 1990,
+"name": "Lonnie Marts",
+"pos": "LB",
+"stats": {
+"ints": 5,
+"sacks": 17
+},
+"to": 2000
+},
+{
+"name": "Luke Kuechly",
+"pos": "LB",
+"stats": {
+"ints": 18,
+"sacks": 12.5
+}
+},
+{
+"from": 1971,
+"name": "Lyle Alzado",
+"pos": "DE",
+"stats": {
+"sacks": 112
+},
+"to": 1985
+},
+{
+"from": 1974,
+"name": "Lynn Swann",
+"pos": "WR",
+"stats": {
+"rec": 336,
+"rec_td": 51,
+"rec_yds": 5462
+},
+"to": 1982
+},
+{
+"from": 1946,
+"name": "Mac Speedie",
+"pos": "WR",
+"stats": {
+"rec": 349,
+"rec_td": 33,
+"rec_yds": 5602
+},
+"to": 1955
+},
+{
+"from": 1993,
+"name": "Mack Strong",
+"pos": "FB",
+"stats": {
+"rec": 218,
+"rec_td": 10,
+"rec_yds": 1456,
+"rush_td": 5,
+"rush_yds": 909
+},
+"to": 2007
+},
+{
+"from": 1982,
+"name": "Marcus Allen",
+"pos": "RB",
+"stats": {
+"rec": 587,
+"rec_td": 21,
+"rec_yds": 5411,
+"rush_td": 123,
+"rush_yds": 12243
+},
+"to": 1997
+},
+{
+"from": 1995,
+"name": "Marcus Pollard",
+"pos": "TE",
+"stats": {
+"rec": 349,
+"rec_td": 40,
+"rec_yds": 4280
+},
+"to": 2008
+},
+{
+"from": 1946,
+"name": "Marion Motley",
+"pos": "LB",
+"stats": {
+"rec": 85,
+"rec_td": 7,
+"rec_yds": 1107,
+"rush_td": 31,
+"rush_yds": 4720
+},
+"to": 1955
+},
+{
+"from": 1983,
+"name": "Mark Clayton",
+"pos": "WR",
+"stats": {
+"rec_td": 84
+},
+"to": 1993
+},
+{
+"from": 1979,
+"name": "Mark Gastineau",
+"pos": "DE",
+"stats": {
+"sacks": 107.5
+},
+"to": 1988
+},
+{
+"from": 1996,
+"name": "Marquis Walker",
+"pos": "DB",
+"stats": {
+"ints": 5
+},
+"to": 2000
+},
+{
+"from": 1994,
+"name": "Marshall Faulk",
+"pos": "RB",
+"stats": {
+"rec": 767,
+"rec_td": 36,
+"rec_yds": 6875,
+"rush_td": 100,
+"rush_yds": 12279
+},
+"to": 2005
+},
+{
+"from": 2007,
+"name": "Marshawn Lynch",
+"pos": "RB",
+"stats": {
+"rush_td": 85,
+"rush_yds": 10413
+},
+"to": 2019
+},
+{
+"from": 1996,
+"name": "Marvin Harrison",
+"pos": "WR",
+"stats": {
+"rec": 1102,
+"rec_td": 128,
+"rec_yds": 14580
+},
+"to": 2008
+},
+{
+"from": 1999,
+"name": "Matt Hasselbeck",
+"pos": "QB",
+"stats": {
+"pass_td": 212,
+"pass_yds": 36638
+},
+"to": 2015
+},
+{
+"from": 2008,
+"name": "Matt Ryan",
+"pos": "QB",
+"stats": {
+"pass_td": 381,
+"pass_yds": 62792
+},
+"to": 2022
+},
+{
+"from": 2009,
+"name": "Matthew Stafford",
+"pos": "QB",
+"stats": {
+"pass_td": 438,
+"pass_yds": 66662
+},
+"to": 2026
+},
+{
+"from": 1970,
+"name": "Mel Blount",
+"pos": "DB",
+"stats": {
+"ints": 57
+},
+"to": 1983
+},
+{
+"from": 1931,
+"name": "Mel Hein",
+"pos": "LB",
+"stats": {
+"ints": 10
+},
+"to": 1945
+},
+{
+"from": 1964,
+"name": "Mel Renfro",
+"pos": "DB",
+"stats": {
+"ints": 52
+},
+"to": 1977
+},
+{
+"from": 1962,
+"name": "Merlin Olsen",
+"pos": "DT",
+"stats": {
+"ints": 1,
+"sacks": 91
+},
+"to": 1976
+},
+{
+"from": 1988,
+"name": "Michael Irvin",
+"pos": "WR",
+"stats": {
+"rec": 750,
+"rec_td": 65,
+"rec_yds": 11904
+},
+"to": 1999
+},
+{
+"from": 1993,
+"name": "Michael Strahan",
+"pos": "DE",
+"stats": {
+"ints": 4,
+"sacks": 141.5
+},
+"to": 2007
+},
+{
+"from": 1993,
+"name": "Mike Bartrum",
+"pos": "TE",
+"stats": {
+"rec": 11,
+"rec_td": 6,
+"rec_yds": 65
+},
+"to": 2006
+},
+{
+"from": 1961,
+"name": "Mike Ditka",
+"pos": "TE",
+"stats": {
+"rec": 427,
+"rec_td": 43,
+"rec_yds": 5812
+},
+"to": 1972
+},
+{
+"from": 2014,
+"name": "Mike Evans",
+"pos": "WR",
+"stats": {
+"rec": 893,
+"rec_td": 111,
+"rec_yds": 13472
+},
+"to": 2026
+},
+{
+"from": 1976,
+"name": "Mike Haynes",
+"pos": "CB",
+"stats": {
+"ints": 46
+},
+"to": 1989
+},
+{
+"from": 1995,
+"name": "Mike Sellers",
+"pos": "TE",
+"stats": {
+"rec": 123,
+"rec_td": 18,
+"rec_yds": 1095,
+"rush_td": 3,
+"rush_yds": 158
+},
+"to": 2011
+},
+{
+"from": 1981,
+"name": "Mike Singletary",
+"pos": "LB",
+"stats": {
+"ints": 7,
+"sacks": 19
+},
+"to": 1992
+},
+{
+"from": 1985,
+"name": "Mike Tomczak",
+"pos": "QB",
+"stats": {
+"pass_td": 88,
+"pass_yds": 16079,
+"rush_td": 9,
+"rush_yds": 526
+},
+"to": 2000
+},
+{
+"from": 1996,
+"name": "Muhsin Muhammad",
+"pos": "WR",
+"stats": {
+"rec": 860,
+"rec_yds": 11438
+},
+"to": 2009
+},
+{
+"from": 2017,
+"name": "Myles Garrett",
+"pos": "DE",
+"stats": {
+"sacks": 125.5
+},
+"to": 2026
+},
+{
+"from": 1997,
+"name": "N. D. Kalu",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 31
+},
+"to": 2008
+},
+{
+"from": 1988,
+"name": "Neil Smith",
+"pos": "DE",
+"stats": {
+"sacks": 104.5
+},
+"to": 2000
+},
+{
+"from": 1962,
+"name": "Nick Buoniconti",
+"pos": "LB",
+"stats": {
+"ints": 32
+},
+"to": 1976
+},
+{
+"from": 1952,
+"name": "Night Train Lane",
+"pos": "CB",
+"stats": {
+"ints": 68
+},
+"to": 1965
+},
+{
+"from": 1949,
+"name": "Norm Van Brocklin",
+"pos": "QB",
+"stats": {
+"pass_td": 173,
+"pass_yds": 23611
+},
+"to": 1960
+},
+{
+"from": 1969,
+"name": "O. J. Simpson",
+"pos": "RB",
+"stats": {
+"rec": 203,
+"rec_td": 14,
+"rec_yds": 2142,
+"rush_td": 61,
+"rush_yds": 11236
+},
+"to": 1979
+},
+{
+"from": 1997,
+"name": "Obafemi Ayanbadejo",
+"pos": "RB",
+"stats": {
+"rec": 130,
+"rec_td": 3,
+"rec_yds": 885,
+"rush_td": 5,
+"rush_yds": 413
+},
+"to": 2009
+},
+{
+"from": 1952,
+"name": "Ollie Matson",
+"pos": "RB",
+"stats": {
+"rec": 222,
+"rec_td": 23,
+"rec_yds": 3285,
+"rush_td": 40,
+"rush_yds": 5173
+},
+"to": 1966
+},
+{
+"from": 1995,
+"name": "Oronde Gadsden",
+"pos": "WR",
+"stats": {
+"rec": 227,
+"rec_td": 22,
+"rec_yds": 3252
+},
+"to": 2003
+},
+{
+"from": 1990,
+"name": "Otis Smith",
+"pos": "CB",
+"stats": {
+"ints": 29,
+"sacks": 5.5
+},
+"to": 2003
+},
+{
+"from": 1979,
+"name": "Ottis Anderson",
+"pos": "RB",
+"stats": {
+"rush_td": 81,
+"rush_yds": 10273
+},
+"to": 1992
+},
+{
+"from": 1946,
+"name": "Otto Graham",
+"pos": "QB",
+"stats": {
+"pass_td": 174,
+"pass_yds": 23584,
+"rush_td": 44,
+"rush_yds": 882
+},
+"to": 1955
+},
+{
+"from": 1978,
+"name": "Ozzie Newsome",
+"pos": "—",
+"stats": {
+"rec": 662,
+"rec_td": 47,
+"rec_yds": 7980
+},
+"to": 1990
+},
+{
+"from": 1920,
+"name": "Paddy Driscoll",
+"pos": "QB",
+"stats": {
+"pass_td": 18,
+"rec_td": 4,
+"rush_td": 25
+},
+"to": 1929
+},
+{
+"from": 1961,
+"name": "Pat Fischer",
+"pos": "DB",
+"stats": {
+"ints": 56
+},
+"to": 1977
+},
+{
+"from": 1986,
+"name": "Pat Swilling",
+"pos": "DE",
+"stats": {
+"sacks": 107.5
+},
+"to": 1998
+},
+{
+"from": 1997,
+"name": "Pat Williams",
+"pos": "DT",
+"stats": {
+"ints": 1,
+"sacks": 20.5
+},
+"to": 2010
+},
+{
+"from": 2017,
+"name": "Patrick Mahomes",
+"pos": "QB",
+"stats": {
+"pass_td": 279,
+"pass_yds": 37734
+},
+"to": 2026
+},
+{
+"from": 2007,
+"name": "Patrick Willis",
+"pos": "LB",
+"stats": {
+"ints": 8,
+"sacks": 20.5
+},
+"to": 2014
+},
+{
+"from": 1957,
+"name": "Paul Hornung",
+"pos": "RB",
+"stats": {
+"rec": 130,
+"rec_td": 12,
+"rec_yds": 1480,
+"rush_td": 50,
+"rush_yds": 3711
+},
+"to": 1967
+},
+{
+"from": 1964,
+"name": "Paul Krause",
+"pos": "S",
+"stats": {
+"ints": 81
+},
+"to": 1979
+},
+{
+"from": 1964,
+"name": "Paul Warfield",
+"pos": "WR",
+"stats": {
+"rec": 427,
+"rec_td": 85,
+"rec_yds": 8565
+},
+"to": 1977
+},
+{
+"from": 1996,
+"name": "Percy Ellsworth",
+"pos": "S",
+"stats": {
+"ints": 20
+},
+"to": 2001
+},
+{
+"from": 1998,
+"name": "Perry Phenix",
+"pos": "S",
+"stats": {
+"ints": 1
+},
+"to": 2002
+},
+{
+"from": 1976,
+"name": "Pete Johnson",
+"pos": "RB",
+"stats": {
+"rush_td": 76
+},
+"to": 1984
+},
+{
+"from": 1947,
+"name": "Pete Pihos",
+"pos": "WR",
+"stats": {
+"rec": 373,
+"rec_td": 61,
+"rec_yds": 5619
+},
+"to": 1955
+},
+{
+"from": 1997,
+"name": "Peyton Manning",
+"pos": "QB",
+"stats": {
+"pass_td": 539,
+"pass_yds": 71940
+},
+"to": 2015
+},
+{
+"from": 1979,
+"name": "Phil Simms",
+"pos": "QB",
+"stats": {
+"pass_yds": 33462
+},
+"to": 1993
+},
+{
+"from": 2004,
+"name": "Philip Rivers",
+"pos": "QB",
+"stats": {
+"pass_td": 425,
+"pass_yds": 63984
+},
+"to": 2025
+},
+{
+"from": 1997,
+"name": "Priest Holmes",
+"pos": "RB",
+"stats": {
+"rec": 339,
+"rec_td": 8,
+"rec_yds": 2962,
+"rush_td": 86,
+"rush_yds": 8172
+},
+"to": 2007
+},
+{
+"from": 1998,
+"name": "Rabih Abdullah",
+"pos": "RB",
+"stats": {
+"rush_td": 1,
+"rush_yds": 172
+},
+"to": 2004
+},
+{
+"from": 1991,
+"name": "Raghib Ismail",
+"pos": "WR",
+"stats": {
+"rec": 363,
+"rec_td": 28,
+"rec_yds": 5295
+},
+"to": 2001
+},
+{
+"from": 1985,
+"name": "Randall Cunningham",
+"pos": "QB",
+"stats": {
+"pass_td": 207
+},
+"to": 2001
+},
+{
+"from": 1974,
+"name": "Randy Gradishar",
+"pos": "LB",
+"stats": {
+"ints": 20,
+"sacks": 19.5
+},
+"to": 1983
+},
+{
+"from": 1993,
+"name": "Randy Jordan",
+"pos": "RB",
+"stats": {
+"rec": 58,
+"rec_yds": 596,
+"rush_yds": 574
+},
+"to": 2002
+},
+{
+"from": 1998,
+"name": "Randy Moss",
+"pos": "WR",
+"stats": {
+"rec": 982,
+"rec_td": 156,
+"rec_yds": 15292
+},
+"to": 2012
+},
+{
+"from": 1975,
+"name": "Randy White",
+"pos": "DT",
+"stats": {
+"ints": 1,
+"sacks": 111
+},
+"to": 1988
+},
+{
+"from": 1997,
+"name": "Rashod Swinger",
+"pos": "DT",
+"stats": {
+"sacks": 1
+},
+"to": 2001
+},
+{
+"from": 1997,
+"name": "Ratcliff Thomas",
+"pos": "LB",
+"stats": {
+"ints": 1,
+"sacks": 0
+},
+"to": 2002
+},
+{
+"from": 1926,
+"name": "Ray Flaherty",
+"pos": "WR",
+"stats": {
+"rec": 41,
+"rec_td": 20,
+"rec_yds": 626
+},
+"to": 1935
+},
+{
+"from": 1996,
+"name": "Ray Lewis",
+"pos": "LB",
+"stats": {
+"ints": 31,
+"sacks": 41.5
+},
+"to": 2012
+},
+{
+"from": 1996,
+"name": "Ray Lucas",
+"pos": "QB",
+"stats": {
+"pass_td": 18,
+"pass_yds": 3029,
+"rush_td": 4,
+"rush_yds": 396
+},
+"to": 2003
+},
+{
+"from": 1958,
+"name": "Ray Nitschke",
+"pos": "LB",
+"stats": {
+"ints": 25
+},
+"to": 1972
+},
+{
+"from": 1955,
+"name": "Raymond Berry",
+"pos": "WR",
+"stats": {
+"rec": 631,
+"rec_td": 68,
+"rec_yds": 9275
+},
+"to": 1967
+},
+{
+"from": 1927,
+"name": "Red Badgro",
+"pos": "WR",
+"stats": {
+"rec": 35,
+"rec_td": 7,
+"rec_yds": 560
+},
+"to": 1936
+},
+{
+"from": 1925,
+"name": "Red Grange",
+"pos": "RB",
+"stats": {
+"pass_td": 10,
+"rec_td": 10,
+"rush_td": 21
+},
+"to": 1934
+},
+{
+"from": 1995,
+"name": "Reggie Jones",
+"pos": "WR",
+"stats": {
+"rec": 27,
+"rec_yds": 282
+},
+"to": 2004
+},
+{
+"from": 2001,
+"name": "Reggie Wayne",
+"pos": "WR",
+"stats": {
+"rec": 1070,
+"rec_td": 82,
+"rec_yds": 14345
+},
+"to": 2014
+},
+{
+"from": 1985,
+"name": "Reggie White",
+"pos": "DE",
+"stats": {
+"ints": 3,
+"sacks": 198
+},
+"to": 2000
+},
+{
+"from": 1983,
+"name": "Richard Dent",
+"pos": "DE",
+"stats": {
+"ints": 8,
+"sacks": 137.5
+},
+"to": 1997
+},
+{
+"from": 2001,
+"name": "Richard Seymour",
+"pos": "DE",
+"stats": {
+"ints": 2,
+"sacks": 57.5
+},
+"to": 2012
+},
+{
+"from": 1994,
+"name": "Rick Lyle",
+"pos": "DE",
+"stats": {
+"sacks": 11
+},
+"to": 2003
+},
+{
+"from": 1981,
+"name": "Rickey Jackson",
+"pos": "DE",
+"stats": {
+"ints": 8,
+"sacks": 128
+},
+"to": 1995
+},
+{
+"from": 1992,
+"name": "Ricky Watters",
+"pos": "RB",
+"stats": {
+"rush_td": 78,
+"rush_yds": 10643
+},
+"to": 2001
+},
+{
+"from": 1999,
+"name": "Ricky Williams",
+"pos": "RB",
+"stats": {
+"rush_yds": 10009
+},
+"to": 2011
+},
+{
+"from": 2010,
+"name": "Rob Gronkowski",
+"pos": "WR",
+"stats": {
+"rec_td": 92
+},
+"to": 2021
+},
+{
+"from": 1990,
+"name": "Rob Moore",
+"pos": "WR",
+"stats": {
+"rec": 628,
+"rec_td": 49,
+"rec_yds": 9368
+},
+"to": 2002
+},
+{
+"from": 1975,
+"name": "Robert Brazile",
+"pos": "LB",
+"stats": {
+"ints": 13,
+"sacks": 48
+},
+"to": 1984
+},
+{
+"from": 1993,
+"name": "Robert Griffith",
+"pos": "S",
+"stats": {
+"ints": 27,
+"sacks": 8.5
+},
+"to": 2006
+},
+{
+"from": 2003,
+"name": "Robert Mathis",
+"pos": "DE",
+"stats": {
+"sacks": 123
+},
+"to": 2016
+},
+{
+"from": 2011,
+"name": "Robert Quinn",
+"pos": "DE",
+"stats": {
+"sacks": 102
+},
+"to": 2022
+},
+{
+"from": 1998,
+"name": "Robert Thomas",
+"pos": "FB",
+"stats": {
+"rec": 50,
+"rec_yds": 280,
+"rush_yds": 157
+},
+"to": 2008
+},
+{
+"from": 1995,
+"name": "Rod Smith",
+"pos": "WR",
+"stats": {
+"rec": 849,
+"rec_td": 68,
+"rec_yds": 11389
+},
+"to": 2007
+},
+{
+"from": 1987,
+"name": "Rod Woodson",
+"pos": "DB",
+"stats": {
+"ints": 71,
+"sacks": 13.5
+},
+"to": 2003
+},
+{
+"from": 2005,
+"name": "Roddy White",
+"pos": "WR",
+"stats": {
+"rec": 808,
+"rec_yds": 10863
+},
+"to": 2015
+},
+{
+"from": 1983,
+"name": "Roger Craig",
+"pos": "RB",
+"stats": {
+"rec": 566,
+"rec_yds": 4911,
+"rush_yds": 8189
+},
+"to": 1993
+},
+{
+"from": 1969,
+"name": "Roger Staubach",
+"pos": "QB",
+"stats": {
+"pass_td": 153,
+"pass_yds": 22700,
+"rush_td": 20,
+"rush_yds": 2264
+},
+"to": 1979
+},
+{
+"from": 1969,
+"name": "Roger Wehrli",
+"pos": "CB",
+"stats": {
+"ints": 40,
+"sacks": 1
+},
+"to": 1982
+},
+{
+"from": 1995,
+"name": "Ron Rice",
+"pos": "S",
+"stats": {
+"ints": 12,
+"sacks": 6.5
+},
+"to": 2001
+},
+{
+"from": 1994,
+"name": "Ron Rivers",
+"pos": "RB",
+"stats": {
+"rush_td": 3,
+"rush_yds": 749
+},
+"to": 2001
+},
+{
+"from": 1996,
+"name": "Ronald McKinnon",
+"pos": "LB",
+"stats": {
+"ints": 10,
+"sacks": 12
+},
+"to": 2005
+},
+{
+"from": 1997,
+"name": "Ronde Barber",
+"pos": "CB",
+"stats": {
+"ints": 47,
+"sacks": 28
+},
+"to": 2012
+},
+{
+"from": 1993,
+"name": "Ronnie Harris",
+"pos": "WR",
+"stats": {
+"rec": 18,
+"rec_yds": 296
+},
+"to": 1999
+},
+{
+"from": 1981,
+"name": "Ronnie Lott",
+"pos": "DB",
+"stats": {
+"ints": 63
+},
+"to": 1994
+},
+{
+"from": 2012,
+"name": "Russell Wilson",
+"pos": "QB",
+"stats": {
+"pass_td": 353,
+"pass_yds": 46966
+},
+"to": 2025
+},
+{
+"from": 2005,
+"name": "Ryan Fitzpatrick",
+"pos": "QB",
+"stats": {
+"pass_td": 223,
+"pass_yds": 34990
+},
+"to": 2021
+},
+{
+"from": 2012,
+"name": "Ryan Tannehill",
+"pos": "QB",
+"stats": {
+"pass_td": 216,
+"pass_yds": 34881
+},
+"to": 2023
+},
+{
+"from": 1993,
+"name": "Ryan Wetnight",
+"pos": "TE",
+"stats": {
+"rec": 175,
+"rec_td": 9,
+"rec_yds": 1542
+},
+"to": 2000
+},
+{
+"from": 1956,
+"name": "Sam Huff",
+"pos": "LB",
+"stats": {
+"ints": 30
+},
+"to": 1969
+},
+{
+"from": 1981,
+"name": "Sam Mills",
+"pos": "LB",
+"stats": {
+"ints": 11,
+"sacks": 20.5
+},
+"to": 1997
+},
+{
+"from": 1937,
+"name": "Sammy Baugh",
+"pos": "QB",
+"stats": {
+"pass_td": 187,
+"pass_yds": 21886
+},
+"to": 1952
+},
+{
+"from": 1997,
+"name": "Sammy Knight",
+"pos": "DB",
+"stats": {
+"ints": 42,
+"sacks": 9
+},
+"to": 2008
+},
+{
+"from": 2001,
+"name": "Santana Moss",
+"pos": "WR",
+"stats": {
+"rec": 733,
+"rec_yds": 10283
+},
+"to": 2014
+},
+{
+"from": 1984,
+"name": "Sean Jones",
+"pos": "DE",
+"stats": {
+"sacks": 113
+},
+"to": 1996
+},
+{
+"from": 1993,
+"name": "Shane Matthews",
+"pos": "QB",
+"stats": {
+"pass_td": 31,
+"pass_yds": 4756
+},
+"to": 2006
+},
+{
+"from": 1990,
+"name": "Shannon Sharpe",
+"pos": "TE",
+"stats": {
+"rec": 815,
+"rec_td": 62,
+"rec_yds": 10060
+},
+"to": 2003
+},
+{
+"from": 2000,
+"name": "Shaun Alexander",
+"pos": "RB",
+"stats": {
+"rush_td": 100
+},
+"to": 2008
+},
+{
+"from": 1993,
+"name": "Shawn Price",
+"pos": "DE",
+"stats": {
+"sacks": 14.5
+},
+"to": 2003
+},
+{
+"from": 1994,
+"name": "Shelton Quarles",
+"pos": "LB",
+"stats": {
+"ints": 4,
+"sacks": 13
+},
+"to": 2006
+},
+{
+"from": 1939,
+"name": "Sid Luckman",
+"pos": "QB",
+"stats": {
+"pass_td": 137,
+"pass_yds": 14686
+},
+"to": 1950
+},
+{
+"from": 1996,
+"name": "Simeon Rice",
+"pos": "DE",
+"stats": {
+"sacks": 122
+},
+"to": 2007
+},
+{
+"from": 1957,
+"name": "Sonny Jurgensen",
+"pos": "QB",
+"stats": {
+"pass_td": 255,
+"pass_yds": 32224
+},
+"to": 1974
+},
+{
+"from": 1954,
+"name": "Stan Jones",
+"pos": "DT",
+"stats": {
+"sacks": 14
+},
+"to": 1966
+},
+{
+"from": 1977,
+"name": "Stanley Morgan",
+"pos": "WR",
+"stats": {
+"rec": 557,
+"rec_yds": 10716
+},
+"to": 1990
+},
+{
+"from": 2015,
+"name": "Stefon Diggs",
+"pos": "WR",
+"stats": {
+"rec": 969,
+"rec_td": 79,
+"rec_yds": 11756
+},
+"to": 2026
+},
+{
+"from": 1988,
+"name": "Sterling Sharpe",
+"pos": "WR",
+"stats": {
+"rec": 595,
+"rec_td": 65,
+"rec_yds": 8134
+},
+"to": 1994
+},
+{
+"from": 1989,
+"name": "Steve Atwater",
+"pos": "S",
+"stats": {
+"ints": 24,
+"sacks": 5
+},
+"to": 1999
+},
+{
+"from": 1978,
+"name": "Steve DeBerg",
+"pos": "QB",
+"stats": {
+"pass_yds": 34241
+},
+"to": 1998
+},
+{
+"from": 1976,
+"name": "Steve Largent",
+"pos": "WR",
+"stats": {
+"rec": 819,
+"rec_td": 100,
+"rec_yds": 13089
+},
+"to": 1989
+},
+{
+"from": 1980,
+"name": "Steve McMichael",
+"pos": "DT",
+"stats": {
+"ints": 3,
+"sacks": 95
+},
+"to": 1994
+},
+{
+"from": 2001,
+"name": "Steve Smith Sr.",
+"pos": "WR",
+"stats": {
+"rec": 1031,
+"rec_td": 81,
+"rec_yds": 14731
+},
+"to": 2016
+},
+{
+"from": 1944,
+"name": "Steve Van Buren",
+"pos": "RB",
+"stats": {
+"rec": 45,
+"rec_td": 3,
+"rec_yds": 523,
+"rush_td": 69,
+"rush_yds": 5860
+},
+"to": 1951
+},
+{
+"from": 1989,
+"name": "Steve Walsh",
+"pos": "QB",
+"stats": {
+"pass_td": 40,
+"pass_yds": 7875
+},
+"to": 1999
+},
+{
+"from": 1985,
+"name": "Steve Young",
+"pos": "QB",
+"stats": {
+"pass_td": 232,
+"pass_yds": 33124,
+"rush_td": 43,
+"rush_yds": 4239
+},
+"to": 1999
+},
+{
+"from": 2004,
+"name": "Steven Jackson",
+"pos": "RB",
+"stats": {
+"rush_yds": 11438
+},
+"to": 2015
+},
+{
+"from": 2017,
+"name": "T. J. Watt",
+"pos": "OLB",
+"stats": {
+"sacks": 122.5
+},
+"to": 2026
+},
+{
+"from": 1969,
+"name": "Ted Hendricks",
+"pos": "LB",
+"stats": {
+"ints": 26,
+"sacks": 61
+},
+"to": 1983
+},
+{
+"from": 1992,
+"name": "Terrell Buckley",
+"pos": "DB",
+"stats": {
+"ints": 50
+},
+"to": 2005
+},
+{
+"from": 1995,
+"name": "Terrell Davis",
+"pos": "RB",
+"stats": {
+"rush_td": 60,
+"rush_yds": 7607
+},
+"to": 2001
+},
+{
+"from": 1996,
+"name": "Terrell Owens",
+"pos": "WR",
+"stats": {
+"rec": 1078,
+"rec_td": 153,
+"rec_yds": 15934
+},
+"to": 2010
+},
+{
+"from": 2003,
+"name": "Terrell Suggs",
+"pos": "DE",
+"stats": {
+"sacks": 139
+},
+"to": 2019
+},
+{
+"from": 1970,
+"name": "Terry Bradshaw",
+"pos": "QB",
+"stats": {
+"pass_td": 212,
+"pass_yds": 27989,
+"rush_td": 32,
+"rush_yds": 2257
+},
+"to": 1983
+},
+{
+"from": 1997,
+"name": "Terry Cousin",
+"pos": "DB",
+"stats": {
+"ints": 13,
+"sacks": 6.5
+},
+"to": 2008
+},
+{
+"from": 2000,
+"name": "Thomas Jones",
+"pos": "RB",
+"stats": {
+"rush_yds": 10591
+},
+"to": 2011
+},
+{
+"from": 1988,
+"name": "Thurman Thomas",
+"pos": "RB",
+"stats": {
+"rec": 472,
+"rec_td": 23,
+"rec_yds": 4458,
+"rush_td": 65,
+"rush_yds": 12074
+},
+"to": 2000
+},
+{
+"from": 1997,
+"name": "Tiki Barber",
+"pos": "RB",
+"stats": {
+"rush_yds": 10449
+},
+"to": 2006
+},
+{
+"from": 1988,
+"name": "Tim Brown",
+"pos": "WR",
+"stats": {
+"rec": 1094,
+"rec_td": 100,
+"rec_yds": 14934
+},
+"to": 2004
+},
+{
+"from": 1990,
+"name": "Tim Hauck",
+"pos": "DB",
+"stats": {
+"ints": 1
+},
+"to": 2002
+},
+{
+"from": 1996,
+"name": "Tim Morabito",
+"pos": "DT",
+"stats": {
+"sacks": 2.5
+},
+"to": 2005
+},
+{
+"from": 1997,
+"name": "Tim Terry",
+"pos": "LB",
+"stats": {
+"sacks": 3.5
+},
+"to": 2002
+},
+{
+"from": 1994,
+"name": "Tito Wooten",
+"pos": "DB",
+"stats": {
+"ints": 8
+},
+"to": 2006
+},
+{
+"from": 1997,
+"name": "Todd Bouman",
+"pos": "QB",
+"stats": {
+"pass_td": 13,
+"pass_yds": 1905
+},
+"to": 2010
+},
+{
+"from": 2000,
+"name": "Tom Brady",
+"pos": "QB",
+"stats": {
+"pass_td": 649,
+"pass_yds": 89214
+},
+"to": 2022
+},
+{
+"from": 1948,
+"name": "Tom Fears",
+"pos": "WR",
+"stats": {
+"rec": 400,
+"rec_td": 38,
+"rec_yds": 5397
+},
+"to": 1956
+},
+{
+"from": 1957,
+"name": "Tom Flores",
+"pos": "QB",
+"stats": {
+"pass_td": 93,
+"pass_yds": 11959,
+"rush_td": 5,
+"rush_yds": 307
+},
+"to": 1969
+},
+{
+"from": 1949,
+"name": "Tom Landry",
+"pos": "S",
+"stats": {
+"ints": 32
+},
+"to": 1955
+},
+{
+"from": 1957,
+"name": "Tommy McDonald",
+"pos": "WR",
+"stats": {
+"rec": 495,
+"rec_td": 84,
+"rec_yds": 8410
+},
+"to": 1968
+},
+{
+"from": 1941,
+"name": "Tony Canadeo",
+"pos": "BACK",
+"stats": {
+"ints": 9,
+"pass_td": 16,
+"pass_yds": 1642,
+"rec": 69,
+"rec_td": 5,
+"rec_yds": 579,
+"rush_td": 26,
+"rush_yds": 4197
+},
+"to": 1952
+},
+{
+"from": 1994,
+"name": "Tony Carter",
+"pos": "RB",
+"stats": {
+"rush_yds": 256
+},
+"to": 2002
+},
+{
+"from": 1977,
+"name": "Tony Dorsett",
+"pos": "RB",
+"stats": {
+"rec": 398,
+"rec_td": 13,
+"rec_yds": 3554,
+"rush_td": 77,
+"rush_yds": 12739
+},
+"to": 1988
+},
+{
+"from": 1977,
+"name": "Tony Dungy",
+"pos": "S",
+"stats": {
+"ints": 9
+},
+"to": 1980
+},
+{
+"from": 1997,
+"name": "Tony Gonzalez",
+"pos": "TE",
+"stats": {
+"rec": 1325,
+"rec_td": 111,
+"rec_yds": 15127
+},
+"to": 2013
+},
+{
+"from": 1998,
+"name": "Tony Horne",
+"pos": "WR",
+"stats": {
+"rec": 4,
+"rec_yds": 32
+},
+"to": 2001
+},
+{
+"from": 1971,
+"name": "Tony McGee",
+"pos": "DE",
+"stats": {
+"sacks": 103
+},
+"to": 1984
+},
+{
+"from": 1994,
+"name": "Tony Richardson",
+"pos": "FB",
+"stats": {
+"rec": 210,
+"rec_td": 9,
+"rec_yds": 1543,
+"rush_td": 15,
+"rush_yds": 1727
+},
+"to": 2010
+},
+{
+"from": 2003,
+"name": "Tony Romo",
+"pos": "QB",
+"stats": {
+"pass_td": 248,
+"pass_yds": 34183
+},
+"to": 2016
+},
+{
+"from": 1990,
+"name": "Tony Siragusa",
+"pos": "DT",
+"stats": {
+"sacks": 22
+},
+"to": 2001
+},
+{
+"from": 1974,
+"name": "Too Tall Jones",
+"pos": "DE",
+"stats": {
+"sacks": 106
+},
+"to": 1989
+},
+{
+"from": 1999,
+"name": "Torry Holt",
+"pos": "WR",
+"stats": {
+"rec": 920,
+"rec_yds": 13382
+},
+"to": 2009
+},
+{
+"from": 1989,
+"name": "Trace Armstrong",
+"pos": "DE",
+"stats": {
+"sacks": 106
+},
+"to": 2003
+},
+{
+"from": 1989,
+"name": "Tracy Simien",
+"pos": "LB",
+"stats": {
+"ints": 5
+},
+"to": 1999
+},
+{
+"from": 2013,
+"name": "Travis Kelce",
+"pos": "TE",
+"stats": {
+"rec": 1109,
+"rec_td": 84,
+"rec_yds": 13412
+},
+"to": 2026
+},
+{
+"from": 1997,
+"name": "Travis Kirschke",
+"pos": "DE",
+"stats": {
+"sacks": 13
+},
+"to": 2009
+},
+{
+"from": 1989,
+"name": "Troy Aikman",
+"pos": "QB",
+"stats": {
+"pass_td": 165,
+"pass_yds": 32942
+},
+"to": 2000
+},
+{
+"from": 2003,
+"name": "Troy Polamalu",
+"pos": "S",
+"stats": {
+"ints": 32,
+"sacks": 12
+},
+"to": 2014
+},
+{
+"from": 1936,
+"name": "Tuffy Leemans",
+"pos": "FB",
+"stats": {
+"pass_td": 25,
+"pass_yds": 2318,
+"rush_td": 17,
+"rush_yds": 3130
+},
+"to": 1943
+},
+{
+"from": 1995,
+"name": "Ty Law",
+"pos": "CB",
+"stats": {
+"ints": 53
+},
+"to": 2009
+},
+{
+"from": 1994,
+"name": "Tyoka Jackson",
+"pos": "DE",
+"stats": {
+"ints": 1,
+"sacks": 29
+},
+"to": 2006
+},
+{
+"from": 2016,
+"name": "Tyreek Hill",
+"pos": "WR",
+"stats": {
+"rec": 819,
+"rec_td": 83,
+"rec_yds": 11363
+},
+"to": 2025
+},
+{
+"from": 1997,
+"name": "Van Tuinei",
+"pos": "DE",
+"stats": {
+"sacks": 5.5
+},
+"to": 2004
+},
+{
+"from": 1992,
+"name": "Vaughn Booker",
+"pos": "DE",
+"stats": {
+"sacks": 14.5
+},
+"to": 2002
+},
+{
+"from": 1993,
+"name": "Victor Green",
+"pos": "DB",
+"stats": {
+"ints": 25
+},
+"to": 2003
+},
+{
+"from": 1987,
+"name": "Vinny Testaverde",
+"pos": "QB",
+"stats": {
+"pass_td": 275,
+"pass_yds": 46233
+},
+"to": 2007
+},
+{
+"from": 2011,
+"name": "Von Miller",
+"pos": "DE",
+"stats": {
+"sacks": 139.5
+},
+"to": 2026
+},
+{
+"from": 1975,
+"name": "Walter Payton",
+"pos": "RB",
+"stats": {
+"rec": 492,
+"rec_td": 15,
+"rec_yds": 4538,
+"rush_td": 110,
+"rush_yds": 16726
+},
+"to": 1987
+},
+{
+"from": 1994,
+"name": "Walter Rasby",
+"pos": "TE",
+"stats": {
+"rec": 64,
+"rec_yds": 584
+},
+"to": 2006
+},
+{
+"from": 1984,
+"name": "Warren Moon",
+"pos": "QB",
+"stats": {
+"pass_td": 291,
+"pass_yds": 49325,
+"rush_td": 22,
+"rush_yds": 1736
+},
+"to": 2000
+},
+{
+"from": 1995,
+"name": "Warren Sapp",
+"pos": "DT",
+"stats": {
+"ints": 4,
+"sacks": 96.5
+},
+"to": 2007
+},
+{
+"from": 1997,
+"name": "Warrick Dunn",
+"pos": "RB",
+"stats": {
+"rush_yds": 10967
+},
+"to": 2008
+},
+{
+"from": 1995,
+"name": "Wayne Chrebet",
+"pos": "WR",
+"stats": {
+"rec": 580,
+"rec_td": 41,
+"rec_yds": 7365
+},
+"to": 2005
+},
+{
+"from": 1936,
+"name": "Wayne Millner",
+"pos": "WR",
+"stats": {
+"rec": 124,
+"rec_td": 12,
+"rec_yds": 1578
+},
+"to": 1945
+},
+{
+"from": 2004,
+"name": "Wes Welker",
+"pos": "WR",
+"stats": {
+"rec": 903
+},
+"to": 2015
+},
+{
+"from": 1986,
+"name": "William Fuller",
+"pos": "DE",
+"stats": {
+"sacks": 100.5
+},
+"to": 1998
+},
+{
+"from": 1963,
+"name": "Willie Brown",
+"pos": "CB",
+"stats": {
+"ints": 54
+},
+"to": 1978
+},
+{
+"from": 1967,
+"name": "Willie Lanier",
+"pos": "LB",
+"stats": {
+"ints": 27
+},
+"to": 1977
+},
+{
+"from": 1960,
+"name": "Willie Wood",
+"pos": "S",
+"stats": {
+"ints": 48
+},
+"to": 1971
+},
+{
+"from": 1948,
+"name": "Y. A. Tittle",
+"pos": "QB",
+"stats": {
+"pass_td": 242,
+"pass_yds": 33070,
+"rush_td": 39,
+"rush_yds": 1245
+},
+"to": 1964
+},
+{
+"from": 1952,
+"name": "Yale Lary",
+"pos": "DB",
+"stats": {
+"ints": 50
+},
+"to": 1964
+},
+{
+"from": 1996,
+"name": "Zach Thomas",
+"pos": "LB",
+"stats": {
+"ints": 17,
+"sacks": 20.5
+},
+"to": 2009
+}
+]
