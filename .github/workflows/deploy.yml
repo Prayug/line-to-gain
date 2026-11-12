@@ -30,7 +30,7 @@ jobs:
           python-version: '3.12'
 
       - name: Rebuild stats from nflverse
-        run: python scripts/build_stats.py "$RUNNER_TEMP/nflverse" data/legends.json data/stats.json
+        run: python scripts/build_stats.py "$RUNNER_TEMP/nflverse" data/legends.json data
 
       # Runs before anything is published: if nflverse renames a column the
       # stats go to zero, these checks fail, and the last good build stays up.
@@ -41,14 +41,14 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/stats.json
+          git add data/meta.json data/pool-*.json
           git diff --cached --quiet || { git commit -m "Refresh stats"; git push; }
 
       - name: Collect the site
         run: |
           mkdir -p _site/data
           cp index.html style.css app.js favicon.svg _site/
-          cp data/stats.json _site/data/
+          cp data/meta.json data/pool-*.json _site/data/
 
       - uses: actions/configure-pages@v5
 

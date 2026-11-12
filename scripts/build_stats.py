@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
-"""Build data/stats.json from nflverse + the committed data/legends.json.
+"""Build the game's stat pools from nflverse + the committed data/legends.json.
 
-Regular season only, stdlib only (this runs in the scheduled GitHub Action).
+Stdlib only (this runs in the scheduled GitHub Action). Writes one small file
+per timeframe so the page only downloads the pool a round actually uses:
 
-Career totals come from three sources, each covering what the others can't:
+  meta.json          timeframe list, labels, and per-stat player counts
+  pool-cur.json      this season so far          pool-last.json   last season
+  pool-post.json     latest postseason           pool-postall.json playoffs since 1999
+  pool-dec2000.json  2000-2009 (likewise 2010s and 2020s, regular season)
+  pool-all.json      regular season careers, classic stats only
+
+All-time careers come from three sources, each covering what the others can't:
   nflverse season files   every player, 1999 -> today (including active players)
   nflverse draft_picks    official career totals, players drafted since 1980
   data/legends.json       older legends and undrafted stars (see fetch_legends.py)
@@ -12,7 +19,7 @@ Summed season files drift slightly from official totals (Brees comes out 70
 yards high), so retired players use the official figure and only active
 players, whose official figures are stale, use the running sum.
 
-Usage: build_stats.py <cache_dir> <legends.json> <out.json>
+Usage: build_stats.py <cache_dir> <legends.json> <out_dir>
 """
 import csv
 import json
@@ -27,7 +34,8 @@ import urllib.request
 BASE = "https://github.com/nflverse/nflverse-data/releases/download"
 FIRST_SEASON = 1999
 
-# stat key -> nflverse season column, draft_picks column
+# Career stats: key -> nflverse season column, draft_picks column. Only these
+# can be traced back past 1999, so they're the only ones offered all-time.
 STATS = {
     "pass_yds": ("passing_yards", "pass_yards"),
     "pass_td": ("passing_tds", "pass_tds"),
@@ -40,6 +48,20 @@ STATS = {
     "ints": ("def_interceptions", "def_ints"),
 }
 KEYS = list(STATS)
+
+# Everything nflverse tracks per season: key -> columns summed into it.
+SEASON_STATS = {
+    "pass_yds": ["passing_yards"], "pass_td": ["passing_tds"],
+    "pass_int": ["passing_interceptions"], "cmp": ["completions"],
+    "rush_yds": ["rushing_yards"], "rush_td": ["rushing_tds"], "carries": ["carries"],
+    "rec_yds": ["receiving_yards"], "rec_td": ["receiving_tds"], "rec": ["receptions"],
+    "targets": ["targets"], "sacks": ["def_sacks"], "ints": ["def_interceptions"],
+    "tackles": ["def_tackles_solo", "def_tackle_assists"], "ff": ["def_fumbles_forced"],
+    "fg": ["fg_made"], "ppr": ["fantasy_points_ppr"],
+}
+SEASON_KEYS = list(SEASON_STATS)
+# Stats the game builds from two others; meta.json counts them too.
+DERIVED = {"scrim_yds": ("rush_yds", "rec_yds"), "total_td": ("rush_td", "rec_td")}
 
 # Fold inconsistent position labels so the search rows read cleanly.
 POS_FIX = {"HB": "RB", "BACK": "RB", "NT": "DT", "OLB": "LB", "ILB": "LB",
@@ -67,6 +89,26 @@ def fetch(cache_dir, tag, name):
 def rows(path):
     with open(path, encoding="utf8", newline="") as f:
         return [r for r in csv.DictReader(f)]
+
+
+def check_columns(path):
+    """Fail loudly if nflverse renames a column, instead of writing zeros."""
+    with open(path, encoding="utf8", newline="") as f:
+        header = set(next(csv.reader(f)))
+    needed = {c for cols in SEASON_STATS.values() for c in cols}
+    missing = needed - header
+    if missing:
+        raise SystemExit(f"{os.path.basename(path)} is missing columns: {sorted(missing)}")
+
+
+def tidy(v):
+    """Round away float noise (fantasy points) and keep whole numbers ints."""
+    v = round(v, 1)
+    return int(v) if v == int(v) else v
+
+
+def season_values(r):
+    return [tidy(sum(num(r.get(c)) for c in cols)) for cols in SEASON_STATS.values()]
 
 
 def player_rows(path):
@@ -134,11 +176,38 @@ def progress(cache_dir, season):
 def season_table(path):
     """Everyone who appeared, zeros included: a 0-sack linebacker is a legal
     (bad) pick, and hiding him would tell players he has no stats."""
-    out = []
-    for r in player_rows(path):
-        vals = [num(r.get(STATS[k][0])) for k in KEYS]
-        out.append([r["player_display_name"], pos_of(r["position"]), r["recent_team"]] + vals)
+    check_columns(path)
+    out = [[r["player_display_name"], pos_of(r["position"]), r["recent_team"]] + season_values(r)
+           for r in player_rows(path)]
     out.sort(key=lambda x: norm(x[0]))
+    return out
+
+
+def span_table(paths):
+    """Totals across several seasons ({year: file}), tagged with the years played."""
+    people = {}
+    for year in sorted(paths):
+        check_columns(paths[year])
+        for r in player_rows(paths[year]):
+            p = people.setdefault(r["player_id"], {"from": year, "sums": [0] * len(SEASON_KEYS)})
+            p["to"], p["name"], p["pos"] = year, r["player_display_name"], pos_of(r["position"])
+            p["sums"] = [a + b for a, b in zip(p["sums"], season_values(r))]
+    out = []
+    for p in people.values():
+        span = f"{p['from']}–{str(p['to'])[2:]}" if p["to"] > p["from"] else str(p["from"])
+        out.append([p["name"], p["pos"], span] + [tidy(v) for v in p["sums"]])
+    out.sort(key=lambda x: norm(x[0]))
+    return out
+
+
+def counts(table, keys):
+    """How many players have a positive total for each stat, so the game can
+    tell before downloading a pool whether it holds enough for a big draft."""
+    col = {k: i + 3 for i, k in enumerate(keys)}
+    out = {k: sum(1 for r in table if r[col[k]] > 0) for k in keys}
+    for k, parts in DERIVED.items():
+        if all(p in col for p in parts):
+            out[k] = sum(1 for r in table if sum(r[col[p]] for p in parts) > 0)
     return out
 
 
@@ -292,33 +361,69 @@ def career_table(people, current):
     return out, lookups
 
 
+def latest_postseason(cache_dir, current):
+    for y in (current, current - 1):
+        path = fetch(cache_dir, "stats_player", f"stats_player_post_{y}.csv")
+        if path and player_rows(path):
+            return y
+    raise SystemExit("no postseason file found")
+
+
+def season_files(cache_dir, kind, first, last):
+    paths = {}
+    for y in range(first, last + 1):
+        path = fetch(cache_dir, "stats_player", f"stats_player_{kind}_{y}.csv")
+        if path:
+            paths[y] = path
+    return paths
+
+
 def main():
-    cache_dir, legends_path, out_path = sys.argv[1:4]
+    cache_dir, legends_path, out_dir = sys.argv[1:4]
     os.makedirs(cache_dir, exist_ok=True)
+    os.makedirs(out_dir, exist_ok=True)
     current, last = find_seasons(cache_dir)
-    fetch(cache_dir, "stats_player", f"stats_player_reg_{last}.csv")
+    post = latest_postseason(cache_dir, current)
     people, by_name = careers(cache_dir, current)
     add_legends(legends_path, people, by_name)
     all_time, lookups = career_table(people, current)
     # fetch_legends.py reads this to look these players up on Wikipedia.
     with open(os.path.join(cache_dir, "partial_players.json"), "w", encoding="utf8") as f:
         json.dump(lookups, f, ensure_ascii=False)
-    data = {
-        "meta": {
-            "keys": KEYS,
-            "current": current,
-            "last": last,
-            "progress": progress(cache_dir, current),
-        },
-        "pools": {
-            "cur": season_table(os.path.join(cache_dir, f"stats_player_reg_{current}.csv")),
-            "last": season_table(os.path.join(cache_dir, f"stats_player_reg_{last}.csv")),
-            "all": all_time,
-        },
-    }
-    with open(out_path, "w", encoding="utf8") as f:
-        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"{data['meta']} -> {out_path} ({os.path.getsize(out_path) // 1024} KB)")
+
+    reg = season_files(cache_dir, "reg", FIRST_SEASON, current)
+    posts = season_files(cache_dir, "post", FIRST_SEASON, post)
+    prog = progress(cache_dir, current)
+    done = prog.endswith("Week 18")
+    span = lambda a, b: {y: p for y, p in reg.items() if a <= y <= b}
+
+    eras = [
+        ("cur", f"{current} {'season' if done else 'so far'}", "Seasons", prog,
+         season_table(reg[current]), SEASON_KEYS),
+        ("last", f"{last} season", "Seasons", "", season_table(reg[last]), SEASON_KEYS),
+        ("dec2020", "2020s", "Decades", f"2020–{current} regular seasons",
+         span_table(span(2020, current)), SEASON_KEYS),
+        ("dec2010", "2010s", "Decades", "2010–2019 regular seasons",
+         span_table(span(2010, 2019)), SEASON_KEYS),
+        ("dec2000", "2000s", "Decades", "2000–2009 regular seasons",
+         span_table(span(2000, 2009)), SEASON_KEYS),
+        ("post", f"{post} playoffs", "Playoffs", "Postseason games only",
+         season_table(posts[post]), SEASON_KEYS),
+        ("postall", "Playoffs since 1999", "Playoffs", f"Every postseason, 1999–{post}",
+         span_table(posts), SEASON_KEYS),
+        ("all", "All-time", "Careers", "Regular season careers", all_time, KEYS),
+    ]
+    meta = {"current": current, "last": last, "post": post, "eras": []}
+    for era_id, label, group, note, table, keys in eras:
+        meta["eras"].append({"id": era_id, "label": label, "group": group, "note": note,
+                             "keys": keys, "players": len(table), "counts": counts(table, keys)})
+        with open(os.path.join(out_dir, f"pool-{era_id}.json"), "w", encoding="utf8") as f:
+            json.dump({"keys": keys, "rows": table}, f, ensure_ascii=False, separators=(",", ":"))
+    with open(os.path.join(out_dir, "meta.json"), "w", encoding="utf8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+    for e in meta["eras"]:
+        size = os.path.getsize(os.path.join(out_dir, f"pool-{e['id']}.json")) // 1024
+        print(f"{e['id']:8} {e['label']:22} {e['players']:6} players  {size:5} KB  {e['note']}")
 
 
 if __name__ == "__main__":
