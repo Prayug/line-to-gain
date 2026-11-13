@@ -7,7 +7,7 @@
    "id": "cur",
    "label": "2026 so far",
    "group": "Seasons",
-   "note": "through Week 9",
+   "note": "through part of Week 10",
    "keys": [
     "pass_yds",
     "pass_td",
@@ -27,27 +27,27 @@
     "fg",
     "ppr"
    ],
-   "players": 1777,
+   "players": 1779,
    "counts": {
     "pass_yds": 65,
     "pass_td": 46,
-    "pass_int": 44,
+    "pass_int": 45,
     "cmp": 67,
-    "rush_yds": 249,
+    "rush_yds": 250,
     "rush_td": 104,
-    "carries": 269,
+    "carries": 270,
     "rec_yds": 421,
-    "rec_td": 200,
+    "rec_td": 201,
     "rec": 423,
     "targets": 447,
-    "sacks": 332,
-    "ints": 140,
-    "tackles": 1229,
-    "ff": 189,
+    "sacks": 333,
+    "ints": 141,
+    "tackles": 1230,
+    "ff": 192,
     "fg": 37,
-    "ppr": 500,
-    "scrim_yds": 494,
-    "total_td": 269
+    "ppr": 501,
+    "scrim_yds": 495,
+    "total_td": 270
    }
   },
   {
@@ -121,15 +121,15 @@
     "fg",
     "ppr"
    ],
-   "players": 4333,
+   "players": 4334,
    "counts": {
     "pass_yds": 224,
     "pass_td": 152,
     "pass_int": 147,
     "cmp": 226,
-    "rush_yds": 819,
+    "rush_yds": 820,
     "rush_td": 402,
-    "carries": 893,
+    "carries": 894,
     "rec_yds": 1121,
     "rec_td": 707,
     "rec": 1144,
@@ -137,10 +137,10 @@
     "sacks": 1122,
     "ints": 729,
     "tackles": 3545,
-    "ff": 1054,
+    "ff": 1055,
     "fg": 87,
-    "ppr": 1375,
-    "scrim_yds": 1308,
+    "ppr": 1376,
+    "scrim_yds": 1309,
     "total_td": 876
    }
   },
@@ -348,18 +348,18 @@
     "sacks",
     "ints"
    ],
-   "players": 9860,
+   "players": 9861,
    "counts": {
     "pass_yds": 869,
     "pass_td": 635,
-    "rush_yds": 3086,
+    "rush_yds": 3087,
     "rush_td": 1585,
     "rec_yds": 4242,
     "rec_td": 2732,
     "rec": 4357,
     "sacks": 4109,
     "ints": 3128,
-    "scrim_yds": 4908,
+    "scrim_yds": 4909,
     "total_td": 3371
    }
   }
