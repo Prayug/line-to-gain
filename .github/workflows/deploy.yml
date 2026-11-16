@@ -29,26 +29,49 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Rebuild stats from nflverse
-        run: python scripts/build_stats.py "$RUNNER_TEMP/nflverse" data/legends.json data
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
-      # Runs before anything is published: if nflverse renames a column the
-      # stats go to zero, these checks fail, and the last good build stays up.
-      - name: Check the game rules against the new data
-        run: node tests/rules.test.js
+      # Past seasons never change, so keep the ~300 MB of nflverse downloads
+      # between runs. The build re-downloads the current and previous season.
+      - id: week
+        run: echo "w=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/nflverse
+          key: nflverse-${{ steps.week.outputs.w }}
+          restore-keys: nflverse-
 
-      - name: Commit refreshed stats
+      - name: Test the data build on fixtures
+        run: python -m unittest discover -s scripts -p 'test_*.py'
+
+      - name: Build the stat files from nflverse
+        run: python scripts/build_data.py "$RUNNER_TEMP/nflverse" data/legends.json data/wiki_teams.json data
+
+      # Runs before anything is published: if nflverse renames a column or a
+      # pool comes out empty, these fail and the last good build stays live.
+      - name: Test rules, eligibility and data against the new build
+        run: node --test tests/*.test.js
+
+      # The stat files are built fresh every run and deployed, not committed,
+      # so the repo stays small. A one-line version stamp is committed when the
+      # data changes, which also keeps the daily schedule from going idle.
+      - name: Commit the data version stamp
         run: |
+          python3 -c "import json;print(json.load(open('data/meta.json'))['v'])" > data/version.txt
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/meta.json data/pool-*.json
+          git add data/version.txt
           git diff --cached --quiet || { git commit -m "Refresh stats"; git push; }
 
       - name: Collect the site
         run: |
           mkdir -p _site/data
-          cp index.html style.css app.js favicon.svg _site/
-          cp data/meta.json data/pool-*.json _site/data/
+          cp index.html favicon.svg _site/
+          cp -R css js _site/
+          cp data/meta.json data/players.json data/teams.json _site/data/
+          cp -R data/scopes _site/data/
 
       - uses: actions/configure-pages@v5
 

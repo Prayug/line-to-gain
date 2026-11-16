@@ -1,55 +1,64 @@
 # Line to Gain
 
-Pass-the-phone NFL trivia. You get a stat, a timeframe, and a number. Players take turns naming real NFL players, and whoever's combined total lands closest to the number wins. Nobody sees a stat until the draft is over.
+The NFL stat draft party game. Every round deals a stat, a timeframe and a target number. Players take turns drafting real players, and whoever's combined total lands closest to the line wins. Nobody sees a stat until the chains come out.
 
-- **Stats:** 19 in all: passing, rushing and receiving yards and TDs, completions, interceptions thrown, carries, receptions, targets, scrimmage yards, total TDs, fantasy points (PPR), sacks, interceptions, tackles, forced fumbles and field goals
-- **Timeframes:** this season so far, last season, the 2000s, 2010s and 2020s, last postseason, every postseason since 1999, and all-time careers
-- **Round size:** 1 to 20 players each, fixed or a fresh random size every round
-- **Draft styles:** snake or normal
-- **Players:** 2 to 6 on one device
+Play it at **https://prayug.github.io/line-to-gain/**. Pass one phone around, or play solo.
 
-Pick any mix of stats and timeframes, and each round draws a random pair from them.
+## Modes
 
-## How the number is picked
-
-The target is the real combined total of a random set of good players for that stat and timeframe, rounded to a clean number. That keeps it reachable, and it scales itself from Week 1 to all-time.
-
-A round only uses a stat and timeframe with at least 1.3 players per pick, so a big draft never runs dry. If nothing you picked is deep enough, for example 20 each in one postseason, the round is capped and says so.
-
-## Data
-
-Seasons, decades and all-time count regular-season games. The playoff timeframes count postseason games only.
-
-| Source | Covers |
+| Mode | What changes |
 | --- | --- |
-| [nflverse](https://github.com/nflverse/nflverse-data) season files | Every player since 1999, regular season and playoffs |
-| nflverse `draft_picks` | Official career totals for players drafted since 1980 |
-| Wikipedia | Older legends and undrafted stars, stored in `data/legends.json` |
+| Classic | Closest to the line wins, over or under |
+| Daily Drive | One fixed challenge a day, identical for everyone |
+| Price Is Right | Closest without going over; overshoot and you bust |
+| RedZone | A 15 to 30 second shot clock on every pick; time out and the commish picks for you |
+| No Easy Answers | The obvious top players are banned each round |
+| Gridiron Gauntlet | Five rounds that climb in difficulty, with cumulative points |
+| Two-Minute Drill | Each player gets one chess clock for their whole draft |
+| Sicko Bowl | Obscure categories and eligibility rules only |
 
-Summed season files drift slightly from official totals, so retired players use the official figure and active players use the running sum.
+Series can be one round or best of 3, 5 or 7. Every round can be shared as a challenge link that rebuilds the same stat, timeframe, rules and line.
 
-All-time offers the classic stats only, since targets, tackles, fantasy points and the like can't be traced before 1999. About 70 obscure players who debuted before 1999 are left out of all-time mode because only part of their career could be verified. Older players outside the Hall of Fame and the career leader lists are missing too.
+## Rounds
 
-## Updates
+A round combines a **stat**, a **timeframe** and sometimes an **eligibility rule**, all defined as configuration in `js/catalog.js`:
 
-`.github/workflows/deploy.yml` runs daily. It rebuilds `data/meta.json` and the `data/pool-*.json` files from nflverse, runs the rule tests, and deploys to GitHub Pages. If the tests fail, the last good version stays live.
+- **Stats (47 player, 15 team):** passing, rushing, receiving, scrimmage and fantasy totals; defense, kicking and returns; 100-yard and 300/400-yard games; 1,000-yard and 10-sack seasons; best single games and seasons; QB starts, wins and playoff wins; Super Bowl and conference title appearances; Pro Bowls, All-Pros and titles; franchise wins, titles, droughts and season scoring.
+- **Timeframes:** any season since 1999, this season so far, decades, any postseason, playoff careers, Super Bowls, careers, rookie and final seasons, and a player's games with one franchise.
+- **Rules:** undrafted, first-round, outside the first round, seventh-rounders, a draft class, a franchise, active or retired, never won a ring, never made a Pro Bowl, journeymen, and positions.
+- **Packs:** Classic, Deep Cuts, Playoff Football, Historical, Team Knowledge and Sicko. **Difficulties:** Rookie, Pro, All-Pro and Hall of Fame.
 
-The new season is picked up automatically once nflverse publishes it. GitHub pauses scheduled workflows after 60 days without a commit, so after a quiet offseason you may need to re-enable the workflow in the Actions tab.
+The engine (`js/engine.js`) only deals a combination when enough players have a nonzero value for every pick. Targets come from the real totals of a random group of strong players, so every line is reachable. Each round is frozen when it's created, including its labels, target and every eligible player's value, so a data refresh mid-game can't change it.
 
-## Running it locally
+## Data and coverage
+
+Built daily by `scripts/build_data.py` from [nflverse](https://github.com/nflverse/nflverse-data), plus two committed Wikipedia snapshots (`data/legends.json`, `data/wiki_teams.json`).
+
+- Game logs, seasons, playoffs, team records and QB starts begin with the **1999** season, and rounds built on them say "since 1999".
+- All-time careers for the classic stats (yards, TDs, receptions, sacks, INTs) are complete, merged from season files, nflverse draft records and Wikipedia.
+- Pro Bowls and All-Pros cover players drafted since 1980. Super Bowl titles count from the 1999 season, from rosters.
+- Every round shows whether it counts regular-season or postseason games.
+
+Not included, because no reliable free source covers them: game-winning drives, fourth-quarter comebacks, non-QB games started and longest touchdowns.
+
+## Development
 
 ```bash
 python3 -m http.server 8123
 ```
 
 ```bash
-node tests/rules.test.js
+python3 scripts/build_data.py /tmp/nflverse data/legends.json data/wiki_teams.json data
 ```
-
-To rebuild the stats (the first argument is a download cache folder):
 
 ```bash
-python3 scripts/build_stats.py /tmp/nflverse data/legends.json data
+node --test tests/*.test.js
 ```
 
-`scripts/fetch_legends.py` regenerates `data/legends.json` from Wikipedia. Retired players' numbers don't change, so it rarely needs to run. It needs `beautifulsoup4`.
+```bash
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```
+
+The built stat files (`data/meta.json`, `data/players.json`, `data/teams.json`, `data/scopes/`) are generated by the daily workflow and deployed, not committed. `scripts/fetch_legends.py` and `scripts/fetch_wiki_teams.py` refresh the Wikipedia snapshots and rarely need to run (after each Super Bowl for the team one).
+
+Progress, profiles and match history live in the browser's local storage. Fan-made; not affiliated with the NFL.

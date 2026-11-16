@@ -1,3 +1,9 @@
 .claude/
 __pycache__/
 .DS_Store
+# Built daily by .github/workflows/deploy.yml from nflverse; not committed.
+data/meta.json
+data/players.json
+data/teams.json
+data/scopes/
+node_modules/

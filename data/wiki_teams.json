@@ -1,0 +1,228 @@
+{
+ "source": "Wikipedia: List of Super Bowl champions; List of all-time NFL win–loss records",
+ "throughSeason": 2025,
+ "champions": {
+  "1966": "GB",
+  "1967": "GB",
+  "1968": "NYJ",
+  "1969": "KC",
+  "1970": "IND",
+  "1971": "DAL",
+  "1972": "MIA",
+  "1973": "MIA",
+  "1974": "PIT",
+  "1975": "PIT",
+  "1976": "LV",
+  "1977": "DAL",
+  "1978": "PIT",
+  "1979": "PIT",
+  "1980": "LV",
+  "1981": "SF",
+  "1982": "WAS",
+  "1983": "LV",
+  "1984": "SF",
+  "1985": "CHI",
+  "1986": "NYG",
+  "1987": "WAS",
+  "1988": "SF",
+  "1989": "SF",
+  "1990": "NYG",
+  "1991": "WAS",
+  "1992": "DAL",
+  "1993": "DAL",
+  "1994": "SF",
+  "1995": "DAL",
+  "1996": "GB",
+  "1997": "DEN",
+  "1998": "DEN",
+  "1999": "LA",
+  "2000": "BAL",
+  "2001": "NE",
+  "2002": "TB",
+  "2003": "NE",
+  "2004": "NE",
+  "2005": "PIT",
+  "2006": "IND",
+  "2007": "NYG",
+  "2008": "PIT",
+  "2009": "NO",
+  "2010": "GB",
+  "2011": "NYG",
+  "2012": "BAL",
+  "2013": "SEA",
+  "2014": "NE",
+  "2015": "DEN",
+  "2016": "NE",
+  "2017": "PHI",
+  "2018": "NE",
+  "2019": "KC",
+  "2020": "TB",
+  "2021": "LA",
+  "2022": "KC",
+  "2023": "KC",
+  "2024": "PHI",
+  "2025": "SEA"
+ },
+ "franchises": {
+  "ARI": {
+   "sb_wins": 0,
+   "sb_apps": 1,
+   "po_wins_alltime": 7
+  },
+  "ATL": {
+   "sb_wins": 0,
+   "sb_apps": 2,
+   "po_wins_alltime": 10
+  },
+  "BAL": {
+   "sb_wins": 2,
+   "sb_apps": 2,
+   "po_wins_alltime": 18
+  },
+  "BUF": {
+   "sb_wins": 0,
+   "sb_apps": 4,
+   "po_wins_alltime": 22
+  },
+  "CAR": {
+   "sb_wins": 0,
+   "sb_apps": 2,
+   "po_wins_alltime": 9
+  },
+  "CHI": {
+   "sb_wins": 1,
+   "sb_apps": 2,
+   "po_wins_alltime": 18
+  },
+  "CIN": {
+   "sb_wins": 0,
+   "sb_apps": 3,
+   "po_wins_alltime": 10
+  },
+  "CLE": {
+   "sb_wins": 0,
+   "sb_apps": 0,
+   "po_wins_alltime": 17
+  },
+  "DAL": {
+   "sb_wins": 5,
+   "sb_apps": 8,
+   "po_wins_alltime": 36
+  },
+  "DEN": {
+   "sb_wins": 3,
+   "sb_apps": 8,
+   "po_wins_alltime": 24
+  },
+  "DET": {
+   "sb_wins": 0,
+   "sb_apps": 0,
+   "po_wins_alltime": 9
+  },
+  "GB": {
+   "sb_wins": 4,
+   "sb_apps": 5,
+   "po_wins_alltime": 37
+  },
+  "HOU": {
+   "sb_wins": 0,
+   "sb_apps": 0,
+   "po_wins_alltime": 7
+  },
+  "IND": {
+   "sb_wins": 2,
+   "sb_apps": 4,
+   "po_wins_alltime": 23
+  },
+  "JAX": {
+   "sb_wins": 0,
+   "sb_apps": 0,
+   "po_wins_alltime": 8
+  },
+  "KC": {
+   "sb_wins": 4,
+   "sb_apps": 7,
+   "po_wins_alltime": 26
+  },
+  "LA": {
+   "sb_wins": 2,
+   "sb_apps": 5,
+   "po_wins_alltime": 29
+  },
+  "LAC": {
+   "sb_wins": 0,
+   "sb_apps": 1,
+   "po_wins_alltime": 12
+  },
+  "LV": {
+   "sb_wins": 3,
+   "sb_apps": 5,
+   "po_wins_alltime": 25
+  },
+  "MIA": {
+   "sb_wins": 2,
+   "sb_apps": 5,
+   "po_wins_alltime": 20
+  },
+  "MIN": {
+   "sb_wins": 0,
+   "sb_apps": 4,
+   "po_wins_alltime": 21
+  },
+  "NE": {
+   "sb_wins": 6,
+   "sb_apps": 12,
+   "po_wins_alltime": 40
+  },
+  "NO": {
+   "sb_wins": 1,
+   "sb_apps": 1,
+   "po_wins_alltime": 10
+  },
+  "NYG": {
+   "sb_wins": 4,
+   "sb_apps": 5,
+   "po_wins_alltime": 25
+  },
+  "NYJ": {
+   "sb_wins": 1,
+   "sb_apps": 1,
+   "po_wins_alltime": 12
+  },
+  "PHI": {
+   "sb_wins": 2,
+   "sb_apps": 5,
+   "po_wins_alltime": 29
+  },
+  "PIT": {
+   "sb_wins": 6,
+   "sb_apps": 8,
+   "po_wins_alltime": 36
+  },
+  "SEA": {
+   "sb_wins": 2,
+   "sb_apps": 4,
+   "po_wins_alltime": 20
+  },
+  "SF": {
+   "sb_wins": 5,
+   "sb_apps": 8,
+   "po_wins_alltime": 40
+  },
+  "TB": {
+   "sb_wins": 2,
+   "sb_apps": 2,
+   "po_wins_alltime": 12
+  },
+  "TEN": {
+   "sb_wins": 0,
+   "sb_apps": 1,
+   "po_wins_alltime": 17
+  },
+  "WAS": {
+   "sb_wins": 3,
+   "sb_apps": 5,
+   "po_wins_alltime": 25
+  }
+ }
+}
