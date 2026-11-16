@@ -294,7 +294,12 @@ export function render(ctx) {
     const tb = e.target.closest('[data-team]');
     if (tb && !tb.disabled) { const t = D.team(tb.dataset.team); draftIt(t.id, t.name, 'TEAM'); return; }
     if (e.target.closest('#handoff')) { hideHandoff(); return; }
-    if (e.target.closest('#measure')) { ctx.sfx.whistle(); ctx.go('results'); return; }
+    if (e.target.closest('#measure')) {
+      if (r.picks.length < r.order.length) return;
+      ctx.sfx.whistle();
+      ctx.go('results');
+      return;
+    }
     if (e.target.closest('#undo')) {
       const p = undoPick(match);
       if (p) toast(`Undid ${p.name}`);

@@ -13,6 +13,11 @@ export function render(ctx) {
   const root = ctx.root;
   const match = store.state.match;
   const r = match.round;
+  // Only a finished draft can be measured; anything else goes back to the room.
+  if (r.picks.length < r.order.length) {
+    queueMicrotask(() => ctx.go('draft'));
+    return;
+  }
   const team = r.entity === 'team';
   const P = match.players.length;
   const unit = v => plural(v, r.stat.one, r.stat.many);
